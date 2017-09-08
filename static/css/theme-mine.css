@@ -1,0 +1,113 @@
+:root{
+
+    --MAIN-TEXT-color:#323232; /* Color of text by default */
+    --MAIN-TITLES-TEXT-color: #5e5e5e; /* Color of titles h2-h3-h4-h5 */
+    --MAIN-LINK-color:#1C90F3; /* Color of links */
+    --MAIN-LINK-HOVER-color:#167ad0; /* Color of hovered links */
+    --MAIN-ANCHOR-color: #1C90F3; /* color of anchors on titles */
+
+    --MENU-HEADER-BG-color:#1C90F3; /* Background color of menu header */
+    --MENU-HEADER-BORDER-color:#33a1ff; /*Color of menu header border */
+
+    --MENU-SEARCH-BG-color:#167ad0; /* Search field background color (by default borders + icons) */
+    --MENU-SEARCH-BOX-color: #33a1ff; /* Override search field border color */
+    --MENU-SEARCH-BOX-ICONS-color: #a1d2fd; /* Override search field icons color */
+
+    --MENU-SECTIONS-ACTIVE-BG-color:#20272b; /* Background color of the active section and its childs */
+    --MENU-SECTIONS-BG-color:#252c31; /* Background color of other sections */
+    --MENU-SECTIONS-LINK-color: #ccc; /* Color of links in menu */
+    --MENU-SECTIONS-LINK-HOVER-color: #e6e6e6;  /* Color of links in menu, when hovered */
+    --MENU-SECTION-ACTIVE-CATEGORY-color: #777; /* Color of active category text */
+    --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #fff; /* Color of background for the active category (only) */
+
+    --MENU-VISITED-color: #33a1ff; /* Color of 'page visited' icons in menu */
+    --MENU-SECTION-HR-color: #20272b; /* Color of <hr> separator in menu */
+
+}
+
+/* Paragraphs */
+
+h3 {
+	text-decoration: underline;
+}
+
+p {
+	font-size: 20px;
+}
+
+hr {
+	border-color: #B1D5E9;
+}
+
+li {
+	font-size: 1.1em;
+}
+
+blockquote {
+	border-left: 10px solid skyblue;
+}
+
+blockquote p {
+	color: #555;
+}
+
+/* background behind the logo*/
+#header {
+    background: #3B677F;
+    border-color: orange;
+}
+
+#header-wrapper {
+	background-color: #3B677F;
+	border-color: #B1D5E9;
+}
+
+/* Background color of the menu */
+#sidebar {
+  background-color: #172934;
+}
+
+#sidebar ul.topics > li.parent {
+	background-color: #17303F;
+}
+
+/* Logo */
+
+#logo h1 {
+	color: #B1D5E9;
+	font-size: 3em;
+	text-shadow: 2px 2px 8px #172934;
+	text-transform: unset;
+}
+
+/* Footer */
+
+div#footer {
+	display: none;
+}
+
+/* Useful classes */
+.center {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.html-element {
+	color: navy;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+h3#chapter-0, h3#chapter-1, h3#chapter-2, h3#chapter-x {
+	text-decoration: none !important;
+}
+
+.folder {
+	color: skyblue;
+}
+
+.file {
+	color: white;
+}

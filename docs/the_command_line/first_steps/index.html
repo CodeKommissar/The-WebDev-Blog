@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="generator" content="Hugo 0.26" />
+    <meta name="description" content="The WebDev Blog is a learning site for beginners that want to become Full-Stack Web Developers">
+<meta name="author" content="Luis Rodriguez">
+
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+<link rel="icon" href="/images/favicon.png" type="image/x-icon" />
+
+    <title>First Steps :: The WebDev Blog</title>
+    
+    
+    <link href="/css/nucleus.css?1504882645" rel="stylesheet">
+    <link href="/css/font-awesome.min.css?1504882645" rel="stylesheet">
+    <link href="/css/hybrid.css?1504882645" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1504882645" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1504882645" rel="stylesheet">
+    <link href="/css/horsey.css?1504882645" rel="stylesheet">
+    <link href="/css/theme.css?1504882645" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1504882645" rel="stylesheet">
+    
+      <link href="/css/theme-mine.css?1504882645" rel="stylesheet">
+    
+
+    <script src="/js/jquery-2.x.min.js?1504882645"></script>
+    
+    <style type="text/css">
+      :root #header + #content > #left > #rlblock_left{ 
+          display:none !important;
+      }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="/the_command_line/first_steps/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+       <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+<a id="logo" href="http://TheWebDevBlog.tech">
+  <h1 style="font-family: 'Permanent Marker', cursive;">The WebDev<br>Blog</h1>
+</a>
+
+    </div>
+    
+  </div>
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/intro/" title="Intro" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/intro/">
+          <b>0. </b>Intro
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/intro/requirements/" title="Requirements" class="dd-item ">
+        <a href="/intro/requirements/">
+        Requirements
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/intro/beginner_advice/" title="Beginner&#39;s Advice" class="dd-item ">
+        <a href="/intro/beginner_advice/">
+        Beginner&#39;s Advice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/intro/about/" title="About Me" class="dd-item ">
+        <a href="/intro/about/">
+        About Me
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/the_command_line/" title="The Command Line" class="dd-item 
+        parent
+        
+        
+        ">
+      <a href="/the_command_line/">
+          <b>1. </b>The Command Line
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/the_command_line/introduction/" title="Introduction" class="dd-item ">
+        <a href="/the_command_line/introduction/">
+        Introduction
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/the_command_line/first_steps/" title="First Steps" class="dd-item active">
+        <a href="/the_command_line/first_steps/">
+        First Steps
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/the_command_line/playing_with_scrolls/" title="Playing with scrolls" class="dd-item ">
+        <a href="/the_command_line/playing_with_scrolls/">
+        Playing with scrolls
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/the_command_line/shortcuts/" title="Shortcuts" class="dd-item ">
+        <a href="/the_command_line/shortcuts/">
+        Shortcuts
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/the_command_line/resources/" title="Resources" class="dd-item ">
+        <a href="/the_command_line/resources/">
+        Resources
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/extras/" title="Extras" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/extras/">
+          <b>X. </b>Extras
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/extras/questions/" title="FAQs" class="dd-item ">
+        <a href="/extras/questions/">
+        FAQs
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/extras/collaborating/" title="Collaborating" class="dd-item ">
+        <a href="/extras/collaborating/">
+        Collaborating
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+         
+    </ul>
+
+    
+    
+
+    
+    <section id="footer">
+      
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable sticky-parent">
+              
+              <div class="sticky-spacer">
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fa fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fa fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/'></a> > <a href='/the_command_line/'>The Command Line</a> > First Steps
+          
+         
+          
+         
+          
+           
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#1-entering-the-command-line">1) Entering the Command Line</a>
+<ul>
+<li><a href="#on-ubuntu">On Ubuntu</a></li>
+<li><a href="#on-mac-os">On Mac OS</a></li>
+<li><a href="#on-windows">On Windows</a></li>
+</ul></li>
+<li><a href="#2-your-first-command">2) Your first command</a></li>
+<li><a href="#3-the-file-system">3) The File System</a>
+<ul>
+<li><a href="#directories-what-are-those">Directories? What are those?</a></li>
+</ul></li>
+<li><a href="#4-knowing-where-you-are">4) Knowing where you are</a></li>
+<li><a href="#5-observing-your-surroundings">5) Observing Your Surroundings</a></li>
+<li><a href="#6-creating-rooms-directories">6) Creating Rooms/Directories</a></li>
+<li><a href="#7-walking-into-new-rooms">7) Walking into new Rooms</a></li>
+<li><a href="#quiz">Quiz</a></li>
+<li><a href="#exercises">Exercises</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+
+        
+        <div id="body-inner">
+          
+            <h1>First Steps</h1>
+          
+
+        
+
+
+
+<p>To make your experience learning the command line a little bit more fun, use your imagination and picture that you are playing a text adventure like this:</p>
+
+<p><img src="text_adventure.png?height=10%" alt="Text Adventure" /></p>
+
+<p>The first step to start playing the game, is well, to open the game:</p>
+
+<h3 id="1-entering-the-command-line">1) Entering the Command Line</h3>
+
+<h4 id="on-ubuntu">On Ubuntu</h4>
+
+<ol>
+<li>Open the Dash by clicking the Ubuntu icon in the upper-left</li>
+<li>Type &ldquo;terminal&rdquo;</li>
+<li>Select the Terminal application from the results that appear and click it</li>
+</ol>
+
+<h4 id="on-mac-os">On Mac OS</h4>
+
+<ol>
+<li>Hold down the command key and hit the spacebar.</li>
+<li>In the top right the blue &ldquo;search bar&rdquo; will pop up.</li>
+<li>Type: terminal</li>
+<li>Click on the Terminal application that looks like a black box.</li>
+</ol>
+
+<h4 id="on-windows">On Windows</h4>
+
+<ol>
+<li>To get access to a Unix command line, you&rsquo;re going to need to install a program called &ldquo;Cygwin&rdquo;</li>
+<li>Read this <a href="https://www.davidbaumgold.com/tutorials/set-up-python-windows/">tutorial</a> by David Baumgold  to install Cygwin on your computer (I&rsquo;d recommend to also install Python too, because it could be handy on the future).</li>
+<li>Open Cygwin.</li>
+</ol>
+
+<p>Now you that have your terminal open we can start playing :)</p>
+
+<hr />
+
+<p><img src="you_are_a_wizard.gif" alt="You are a wizard" /></p>
+
+<p>In this particular text adventure you are a wizard. You start in a dark room, and you don&rsquo;t know where you are&hellip;</p>
+
+<h3 id="2-your-first-command">2) Your first command</h3>
+
+<p>In your terminal write:</p>
+
+<pre><code>~$ whoami
+</code></pre>
+
+<p>and then press enter.</p>
+
+<div class="notices info" ><p>Type only the characters <strong>after</strong> the dollar sign ($). If you type the $, you will get an error. <br> Every command line starts with some symbol or symbols designed to “prompt” you to action. In my case is the &ldquo;dollar sign&rdquo; that you see above at the left of the command. This prompt is usually preceded by information that depends on the details of your system, but normally depends on what your username is, and where are you located on your terminal.</p>
+</div>
+
+
+<p>The &ldquo;whoami&rdquo; command is a <a href="http://whatis.techtarget.com/definition/concatenation-concatenate-concatenating">concatenation</a> of the words <strong>&ldquo;Who am I?&rdquo;</strong>. What this command does is that it writes the username of the owner of the current login session. Picture that this is your character name in the game, in my case the output was:</p>
+
+<pre><code>luisrodriguez
+</code></pre>
+
+<div class="notices note" ><p>Try typing &ldquo;WHOAMI&rdquo; in all caps on your terminal and then press enter. You should get a response saying something like: <br>
+<em>&ldquo;WHOAMI: command not found&rdquo;</em><br>
+This is due to <a href="https://en.wikipedia.org/wiki/Case_sensitivity">Case sensitivity</a>; what this means, is that for the terminal, the command &ldquo;whoami&rdquo; is not the same as the word &ldquo;WHOAMI&rdquo;, and because it doesn&rsquo;t understand what that word means, it just outputs an error.</p>
+</div>
+
+
+<hr />
+
+<h3 id="3-the-file-system">3) The File System</h3>
+
+<p><img src="file_system_tree.gif" alt="File System Tree" /></p>
+
+<p>Almost every operating system has it&rsquo;s files arranged in what is called a tree-structured, or hierarchical filesystem.
+A hierarchical structure means that information on the computer is organized in a (upside-down) tree-like pattern of directories which may contain files and other directories.</p>
+
+<p>Most graphical environments today include a file manager program to view and manipulate the contents of the file system. But because the terminal cannot provide graphical pictures of the file system structure, it must have a different way of representing things.</p>
+
+<h4 id="directories-what-are-those">Directories? What are those?</h4>
+
+<p>Basically a directory it&rsquo;s a folder. Most of the times they are interchangeable terms. When you open your file browser  to graphically find files, you are searching through folders. These folders are  pretty much the same as these &ldquo;directories&rdquo; we&rsquo;re going to work with. In this case, imagine directories as &ldquo;rooms&rdquo; that you can walk into.</p>
+
+<p><img src="dungeon.jpg" alt="Dungeon" /></p>
+
+<p>Think of the file system tree as a dungeon. At any given moment, you are located in a single directory (room) and from inside that directory, you can see its files (items), the pathway to its parent directory and the pathways to the subdirectories of the directory in which you are standing (think of the pathways as doors that go to other rooms).</p>
+
+<div class="notices note" ><p>The <em>parent</em> directory is a directory that contains the current directory. <br> For example, if you currently find yourself in a path similar to this: <strong>&rdquo;/Desktop/Cat_Pictures&rdquo;</strong>, &ldquo;Desktop&rdquo; would correspond to the <em>parent</em> directory of &ldquo;Cat_Pictures&rdquo;.</p>
+</div>
+
+
+<h3 id="4-knowing-where-you-are">4) Knowing where you are</h3>
+
+<p>Every time you open the terminal you are going to be in your <em>&ldquo;home&rdquo;</em> directory. The directory/room you are standing in right now is called the working directory.</p>
+
+<p>In your terminal type:</p>
+
+<pre><code>~$ pwd
+</code></pre>
+
+<p>And press enter.</p>
+
+<p>The &ldquo;pwd&rdquo; command means <strong>&ldquo;Print Working Directory&rdquo;</strong>.  If you ever get lost in the computer, run this command and you&rsquo;ll receive a trail of breadcrumbs all the way down from the top level of the computer to see where you are.</p>
+
+<p>In my case the answer that I received from the computer was:</p>
+
+<pre><code>/home/luisrodriguez
+</code></pre>
+
+<p>This is my <em>&ldquo;home&rdquo;</em> directory. Don&rsquo;t freak out if you get a different response from your terminal. Because the location of the home directory varies from platform to platform you can get a different result.</p>
+
+<h3 id="5-observing-your-surroundings">5) Observing Your Surroundings</h3>
+
+<p>In your terminal type:</p>
+
+<pre><code>~$ ls
+</code></pre>
+
+<p>The &ldquo;ls&rdquo; command means <strong>&ldquo;List&rdquo;</strong>. This command <em>lists</em> all of the non-hidden files that are in the current directory. In other words, it let&rsquo;s you &ldquo;view&rdquo; what is inside of the directory in which you currently are.</p>
+
+<p>In my case, the answer that I received from the computer when I typed the ls command was:</p>
+
+<pre><code>Desktop
+Documents
+Downloads
+hello.py
+hello.txt
+index.html
+Music
+Pictures
+Projects
+Public
+The_WebDev_Blog
+</code></pre>
+
+<h3 id="6-creating-rooms-directories">6) Creating Rooms/Directories</h3>
+
+<p>As a wizard you need a lot of space to do your magical experiments, so I&rsquo;ll show you how you can create extra rooms to play with.</p>
+
+<p>In your terminal type:</p>
+
+<pre><code>~$ mkdir First_Directory
+</code></pre>
+
+<p>The &ldquo;mkdir&rdquo; command means <strong>&ldquo;Make Directory&rdquo;</strong>. Right now we are creating a new directory called &ldquo;First_Directory&rdquo;. Note that, differently to all of the commands we have typed before, this command is composed by two parts; &ldquo;mkdir&rdquo; and &ldquo;First_Directory&rdquo;.</p>
+
+<p>The &ldquo;mkdir&rdquo; portion is what we have come to know as a regular command. The &ldquo;First_Directory&rdquo; portion is what is called an <strong>argument</strong>. Command line arguments are values that tells the command in what they should act on or from. In this case, this command tells the computer to make a directory named &ldquo;First Directory&rdquo; on the directory in which we currently are.</p>
+
+<p>Now, if I type the &ldquo;ls&rdquo; command, the response that I receive is:</p>
+
+<pre><code>Desktop
+Documents
+Downloads
+First_Directory
+hello.py
+hello.txt
+index.html
+Music
+Pictures
+Projects
+Public
+The_WebDev_Blog
+</code></pre>
+
+<p>You can see that the &ldquo;First_Directory&rdquo; directory has been successfully created.</p>
+
+<h3 id="7-walking-into-new-rooms">7) Walking into new Rooms</h3>
+
+<p>Altough we&rsquo;ve have created a new directory, we are not inside of it, yet&hellip;</p>
+
+<p>In your terminal type:</p>
+
+<pre><code>~$ cd First_Directory
+</code></pre>
+
+<p>The &ldquo;cd&rdquo; command stands for <strong>&ldquo;Change Directory&rdquo;</strong>, it lets you move between directories on your file system. Your command prompt should change to something like:</p>
+
+<pre><code>~/First_Directory$
+</code></pre>
+
+<p>That means that we&rsquo;ve succesfully changed the directories.</p>
+
+<p>If you now type the &ldquo;ls&rdquo; command, you should get an empty response because the First_Directory itself is empty.</p>
+
+<p>If you want to go back to the home directory, you can type this:</p>
+
+<pre><code>~/First_Directory$ cd ..
+</code></pre>
+
+<p>The &ldquo;cd ..&rdquo; command means &ldquo;go up by one directory&rdquo;. Note that your command prompt changes again:</p>
+
+<pre><code>~$
+</code></pre>
+
+<p>and that if you type the &ldquo;ls&rdquo; command, you get all of the same items that you received before:</p>
+
+<pre><code>~$ ls
+Desktop
+Documents
+Downloads
+First_Directory
+hello.py
+hello.txt
+index.html
+Music
+Pictures
+Projects
+Public
+The_WebDev_Blog
+</code></pre>
+
+<p>Using the &ldquo;cd&rdquo; command along with the &ldquo;ls&rdquo; command is a very common pattern that you&rsquo;ll use many times if you keep using the command line.</p>
+
+<hr />
+
+<h3 id="quiz">Quiz</h3>
+
+<p>Solve the quiz that correspond this page and then move into the exercises.</p>
+
+<a  href="http://lrodriguez.me/The_WebDev_Blog_Quizzes/The_Command_Line/Quiz_Number_1/index.html" target="_blank"  class="btn btn-default">
+  
+  
+  
+    
+  
+  Go to Quiz
+  
+  <i class="fa fa-share"></i>
+  
+</a>
+
+
+<h3 id="exercises">Exercises</h3>
+
+<ol>
+<li>In your <em>home</em> directory, create a directory called &ldquo;The_WebDev_Blog&rdquo;.</li>
+<li>Enter the &ldquo;The_WebDev_Blog&rdquo; directory using the &ldquo;cd&rdquo; command.</li>
+<li>Inside of the &ldquo;The_WebDev_Blog&rdquo; directory create a directory called &ldquo;The_Command_Line&rdquo;.</li>
+<li>Use the &ldquo;ls&rdquo; command to confirm that you have created the &ldquo;The_Command_Line&rdquo; directory.</li>
+<li>Enter the &ldquo;The_Command_Line&rdquo; directory</li>
+<li>Use the &ldquo;pwd&rdquo; command to know where are you located</li>
+<li>Return to your home directory using the &ldquo;cd ..&rdquo; command (twice)</li>
+</ol>
+
+<p>When you&rsquo;ve finished the exercises, go to the next page so you can learn some helpful shortcuts!</p>
+
+
+<footer class=" footline" >
+	
+</footer>
+
+
+        
+        </div> 
+      </div>
+
+    <div id="navigation">
+        
+        
+        
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+        
+        
+
+
+        
+            <a class="nav nav-prev" href="/the_command_line/introduction/" title="Introduction"> <i class="fa fa-chevron-left"></i></a>
+        
+        
+            <a class="nav nav-next" href="/the_command_line/playing_with_scrolls/" title="Playing with scrolls" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+        
+    </div>
+
+    </section>
+    
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/js/clipboard.min.js?1504882645"></script>
+    <script src="/js/perfect-scrollbar.min.js?1504882645"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1504882645"></script>
+    <script src="/js/jquery.sticky-kit.min.js?1504882645"></script>
+    <script src="/js/featherlight.min.js?1504882645"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1504882645"></script>
+    <script src="/js/highlight.pack.js?1504882645"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/js/modernizr.custom.71422.js?1504882645"></script>
+    <script src="/js/learn.js?1504882645"></script>
+    <script src="/js/hugo-learn.js?1504882645"></script>
+
+    <link href="/mermaid/mermaid.css?1504882645" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1504882645"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    
+
+  </body>
+</html>
+

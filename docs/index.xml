@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The WebDev Blog</title>
+    <link>http://example.org/</link>
+    <description>Recent content on The WebDev Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Sep 2017 20:02:29 -0400</lastBuildDate>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Requirements</title>
+      <link>http://example.org/intro/requirements/</link>
+      <pubDate>Mon, 04 Sep 2017 20:02:29 -0400</pubDate>
+      
+      <guid>http://example.org/intro/requirements/</guid>
+      <description>All the content on this blog is 100% free, but for starters, you&amp;rsquo;re going to need a couple of things if you want to follow along and become a good programmer in general:
+1) Desktop Computer or Laptop with Linux/MacOS &amp;ldquo;Desktop Computer or Laptop&amp;rdquo; is pretty basic. A regular computer or old laptop should be more than fine to do web development.
+Sadly you can&amp;rsquo;t, or at least you shouldn&amp;rsquo;t program in a phone or tablet.</description>
+    </item>
+    
+    <item>
+      <title>Introduction</title>
+      <link>http://example.org/the_command_line/introduction/</link>
+      <pubDate>Fri, 21 Apr 2017 14:01:52 -0400</pubDate>
+      
+      <guid>http://example.org/the_command_line/introduction/</guid>
+      <description>The first thing we are going to learn are the fundamentals of the command line. Specifically, we will cover the basics of the Unix command line, where Unix refers to the family of operating systems that includes Linux and Mac OS, but you&amp;rsquo;ll still be able to follow along if you use Windows.
+To start, you don&amp;rsquo;t need any previous knowledge. I&amp;rsquo;ll asume that you don&amp;rsquo;t even know what the command line is or why do we use it.</description>
+    </item>
+    
+    <item>
+      <title>FAQs</title>
+      <link>http://example.org/extras/questions/</link>
+      <pubDate>Sun, 26 Mar 2017 19:44:28 -0400</pubDate>
+      
+      <guid>http://example.org/extras/questions/</guid>
+      <description>This page is going to act as a sort of Frequently Asked Questions. I expect the numbers of questions to grow as I get more feedback from you, the reader.
+1. How does the Blog work? Easy, read every page and follow along with the tutorials, answer the quizzes and do the projects.
+My email direction is in the next page, so feel free to contact me if:</description>
+    </item>
+    
+    <item>
+      <title>First Steps</title>
+      <link>http://example.org/the_command_line/first_steps/</link>
+      <pubDate>Fri, 21 Apr 2017 19:20:32 -0400</pubDate>
+      
+      <guid>http://example.org/the_command_line/first_steps/</guid>
+      <description>To make your experience learning the command line a little bit more fun, use your imagination and picture that you are playing a text adventure like this:
+The first step to start playing the game, is well, to open the game:
+1) Entering the Command Line On Ubuntu  Open the Dash by clicking the Ubuntu icon in the upper-left Type &amp;ldquo;terminal&amp;rdquo; Select the Terminal application from the results that appear and click it  On Mac OS  Hold down the command key and hit the spacebar.</description>
+    </item>
+    
+    <item>
+      <title>Collaborating</title>
+      <link>http://example.org/extras/collaborating/</link>
+      <pubDate>Tue, 18 Apr 2017 20:26:25 -0400</pubDate>
+      
+      <guid>http://example.org/extras/collaborating/</guid>
+      <description>You can help the blog in many diferent ways, but for now I&amp;rsquo;ll just list three of them:
+ Sharing: Spread the word and share this blog with your friends, family or with someone that you think could benefit from this resource.
+ Feedback: Send me a mail at CodeKommissar@Gmail.com and tell me what you think of the site (what things you like like/dislike, what could be improved, what topics you&amp;rsquo;d like to see here, etc)</description>
+    </item>
+    
+    <item>
+      <title>Beginner&#39;s Advice</title>
+      <link>http://example.org/intro/beginner_advice/</link>
+      <pubDate>Tue, 18 Apr 2017 19:57:42 -0400</pubDate>
+      
+      <guid>http://example.org/intro/beginner_advice/</guid>
+      <description>Here are some pointers that I would like to have received when I started this journey.
+1) Download an app to track how many hours a day you are coding (And use it) I have a Windows Phone, so I downloaded an app called Pomodoro T-Soft, which I use everyday. If you have an iOS device Pomodoro Keeper is the app from the screenshots above, and for Android users I think that a good option is ClearFocus.</description>
+    </item>
+    
+    <item>
+      <title>Playing with scrolls</title>
+      <link>http://example.org/the_command_line/playing_with_scrolls/</link>
+      <pubDate>Sat, 22 Apr 2017 12:02:13 -0400</pubDate>
+      
+      <guid>http://example.org/the_command_line/playing_with_scrolls/</guid>
+      <description>Now that you know how to run basic commands at the terminal, along with a few shortcuts, we are going to start working with files. Because we are wizards, we are going to be playing with &amp;ldquo;scrolls&amp;rdquo; instead of just simple text files. Inside these scrolls, we are going to write the recipes of potions.
+Imagine this; you are in your Wizard&amp;rsquo;s Lair, fiddling around with alchemy ingredients (in this case, all you had left was Luna Moth Wings with Chaurus Eggs), and out of pure luck you made an Invisibility potion.</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>http://example.org/intro/about/</link>
+      <pubDate>Tue, 18 Apr 2017 20:25:43 -0400</pubDate>
+      
+      <guid>http://example.org/intro/about/</guid>
+      <description>Before we begin this trip, let me introduce myself.
+My name is Luis and I&amp;rsquo;m from Venezuela. Currently I&amp;rsquo;m 20 years old and I&amp;rsquo;m studying Electronics Engineering here in Venezuela.
+My goal is to become a Full-Stack Developer and to work as one. If you have heard how things currently are in Venezuela, you may know that the situation here isn&amp;rsquo;t so great, so if I have the opportunity to go to a more stable country and make a living working as a developer while helping to support my family, I&amp;rsquo;d be more than happy to do so.</description>
+    </item>
+    
+    <item>
+      <title>Shortcuts</title>
+      <link>http://example.org/the_command_line/shortcuts/</link>
+      <pubDate>Wed, 17 May 2017 14:46:34 -0400</pubDate>
+      
+      <guid>http://example.org/the_command_line/shortcuts/</guid>
+      <description>Now that you know some basic commands, we are going to learn some shortcuts.
+I hope that learning these shortcuts serve us two purposes; first, after you learn them, shortcuts are going to save you some precious time while using the command line, and two, if you still don&amp;rsquo;t feel 100% comfortable while using the terminal, learning the shortcuts can help you overcome some of that command line resistance.</description>
+    </item>
+    
+    <item>
+      <title>Resources</title>
+      <link>http://example.org/the_command_line/resources/</link>
+      <pubDate>Fri, 21 Apr 2017 11:53:52 -0400</pubDate>
+      
+      <guid>http://example.org/the_command_line/resources/</guid>
+      <description>List of resources I used to make this section:
+ Codecademy&amp;rsquo;s Learn the Command Line Viking Code School&amp;rsquo;s A Command Line Crash Course Getting to Know the Command Line by David Baumgold Survival guide for Unix newbies by Matt Might Command Line Crash Course by Zed Shaw Learn Enough Command Line to Be Dangerous by Michael Hartl Rithm School Terminal and UNIX The Linux Command Line by William Shotts  </description>
+    </item>
+    
+  </channel>
+</rss>

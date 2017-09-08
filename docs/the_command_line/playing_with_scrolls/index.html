@@ -1,0 +1,1148 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="generator" content="Hugo 0.26" />
+    <meta name="description" content="The WebDev Blog is a learning site for beginners that want to become Full-Stack Web Developers">
+<meta name="author" content="Luis Rodriguez">
+
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+<link rel="icon" href="/images/favicon.png" type="image/x-icon" />
+
+    <title>Playing with scrolls :: The WebDev Blog</title>
+    
+    
+    <link href="/css/nucleus.css?1504882645" rel="stylesheet">
+    <link href="/css/font-awesome.min.css?1504882645" rel="stylesheet">
+    <link href="/css/hybrid.css?1504882645" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1504882645" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1504882645" rel="stylesheet">
+    <link href="/css/horsey.css?1504882645" rel="stylesheet">
+    <link href="/css/theme.css?1504882645" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1504882645" rel="stylesheet">
+    
+      <link href="/css/theme-mine.css?1504882645" rel="stylesheet">
+    
+
+    <script src="/js/jquery-2.x.min.js?1504882645"></script>
+    
+    <style type="text/css">
+      :root #header + #content > #left > #rlblock_left{ 
+          display:none !important;
+      }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="/the_command_line/playing_with_scrolls/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+       <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+<a id="logo" href="http://TheWebDevBlog.tech">
+  <h1 style="font-family: 'Permanent Marker', cursive;">The WebDev<br>Blog</h1>
+</a>
+
+    </div>
+    
+  </div>
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/intro/" title="Intro" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/intro/">
+          <b>0. </b>Intro
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/intro/requirements/" title="Requirements" class="dd-item ">
+        <a href="/intro/requirements/">
+        Requirements
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/intro/beginner_advice/" title="Beginner&#39;s Advice" class="dd-item ">
+        <a href="/intro/beginner_advice/">
+        Beginner&#39;s Advice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/intro/about/" title="About Me" class="dd-item ">
+        <a href="/intro/about/">
+        About Me
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/the_command_line/" title="The Command Line" class="dd-item 
+        parent
+        
+        
+        ">
+      <a href="/the_command_line/">
+          <b>1. </b>The Command Line
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/the_command_line/introduction/" title="Introduction" class="dd-item ">
+        <a href="/the_command_line/introduction/">
+        Introduction
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/the_command_line/first_steps/" title="First Steps" class="dd-item ">
+        <a href="/the_command_line/first_steps/">
+        First Steps
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/the_command_line/playing_with_scrolls/" title="Playing with scrolls" class="dd-item active">
+        <a href="/the_command_line/playing_with_scrolls/">
+        Playing with scrolls
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/the_command_line/shortcuts/" title="Shortcuts" class="dd-item ">
+        <a href="/the_command_line/shortcuts/">
+        Shortcuts
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/the_command_line/resources/" title="Resources" class="dd-item ">
+        <a href="/the_command_line/resources/">
+        Resources
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/extras/" title="Extras" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/extras/">
+          <b>X. </b>Extras
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/extras/questions/" title="FAQs" class="dd-item ">
+        <a href="/extras/questions/">
+        FAQs
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/extras/collaborating/" title="Collaborating" class="dd-item ">
+        <a href="/extras/collaborating/">
+        Collaborating
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+         
+    </ul>
+
+    
+    
+
+    
+    <section id="footer">
+      
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable sticky-parent">
+              
+              <div class="sticky-spacer">
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fa fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fa fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/'></a> > <a href='/the_command_line/'>The Command Line</a> > Playing with scrolls
+          
+         
+          
+         
+          
+           
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#1-creating-files-from-scratch">1) Creating files from scratch</a></li>
+<li><a href="#2-writing-into-files">2) Writing into files</a></li>
+<li><a href="#3-viewing-a-file">3) Viewing a file</a></li>
+<li><a href="#4-more-writing">4) More Writing</a></li>
+<li><a href="#5-copying-files">5) Copying files</a></li>
+<li><a href="#6-renaming-files-and-moving-files">6) Renaming Files and Moving files</a></li>
+<li><a href="#7-deleting-files">7) Deleting files</a></li>
+<li><a href="#quiz">Quiz</a></li>
+<li><a href="#exercises">Exercises</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+
+        
+        <div id="body-inner">
+          
+            <h1>Playing with scrolls</h1>
+          
+
+        
+
+
+
+<p><img src="scroll.jpg" alt="Scroll" /></p>
+
+<p>Now that you know how to run basic commands at the terminal, along with a few shortcuts, we are going to start working with files. Because we are wizards, we are going to be playing with &ldquo;<em>scrolls</em>&rdquo; instead of just simple text files. Inside these scrolls, we are going to write the recipes of potions.</p>
+
+<p>Imagine this; you are in your Wizard&rsquo;s Lair, fiddling around with alchemy ingredients (in this case, all you had left was Luna Moth Wings with Chaurus Eggs), and out of pure luck you made an Invisibility potion. Being a very useful type of potion, you want to record the ingredients that you used and their quantity in a scroll. How would you do that?</p>
+
+<h3 id="1-creating-files-from-scratch">1) Creating files from scratch</h3>
+
+<p>First, we need to create the scroll. Open your terminal. When you have it open, go to the &ldquo;The_Command_Line&rdquo; directory that you&rsquo;ve created in the <a href="http://localhost:1313/the_command_line/first_steps/#exercises">Exercises</a> portion of the First Steps page.</p>
+
+<p>When you&rsquo;re inside that directory, enter this command:</p>
+
+<pre><code>$ touch Invisibility_Potion.txt
+</code></pre>
+
+<p>The &ldquo;touch&rdquo; command simply creates an empty file. In this case we&rsquo;re using the &ldquo;touch&rdquo; command to create an empty file named &ldquo;Invisibility_Potion.txt&rdquo;. If you now enter the &ldquo;ls&rdquo; command, you should get the name of the file that you&rsquo;ve just created:</p>
+
+<pre><code>Invisibility_Potion.txt
+</code></pre>
+
+<p>The original purpose of &ldquo;touch&rdquo; was to change the modification time of files or directories (and still does that), but nowadays we mostly use it to create empty files.</p>
+
+<h3 id="2-writing-into-files">2) Writing into files</h3>
+
+<p>Now that we have an empty file, we need to learn how to write some text into it. For this, we are going to make use of the &ldquo;echo&rdquo; command. This command simply writes text into the terminal.</p>
+
+<p>In your terminal, type:</p>
+
+<pre><code>$ echo &quot;Abracadabra!&quot;
+</code></pre>
+
+<p>As a response, you should get:</p>
+
+<pre><code>Abracadabra!
+</code></pre>
+
+<p>Just like the echo that you would hear in a cavern, the &ldquo;echo&rdquo; command repeats the &ldquo;string&rdquo; that you wrote between the quotation marks. A string is just a sequence of characters (like letters, numerals and punctuation marks). This command doesn&rsquo;t seem that it does much, but now you&rsquo;ll see how it can be useful for our purposes.</p>
+
+<p>Enter this command:</p>
+
+<pre><code>$ echo &quot;Hello Alchemy!&quot; &gt; Invisibility_Potion.txt
+</code></pre>
+
+<div class="notices note" ><p>Try to use the &ldquo;Tab&rdquo; key so that you don&rsquo;t have to type all the characters in &ldquo;Invisibility_Potion.txt&rdquo;</p>
+</div>
+
+
+<p>The &ldquo;&gt;&rdquo; is what is called the &ldquo;<em>redirect operator</em>&rdquo;. The &gt; redirects the output from the command on the left side into the file on the right hand side.</p>
+
+<p>But how do we know that it actually worked? Let&rsquo;s see how.</p>
+
+<h3 id="3-viewing-a-file">3) Viewing a file</h3>
+
+<p>In your terminal, type:</p>
+
+<pre><code>$ cat Invisibility_Potion.txt
+</code></pre>
+
+<p>As a response, you should get:</p>
+
+<pre><code>Hello Alchemy!
+</code></pre>
+
+<p>The &ldquo;cat&rdquo; command stands for &ldquo;con<strong>cat</strong>enation&rdquo;. Concatenation is the action of joining strings together (i.e., when combining the words &ldquo;Happy&rdquo; and &ldquo;Birthday&rdquo; to wish someone a &ldquo;Happy Birthday&rdquo;, you are &ldquo;concatenating&rdquo; the two strings together). Altough you can indeed use the &ldquo;cat&rdquo; command to concatenate files, in this case we&rsquo;re utilizing another feature of this command, that it&rsquo;s to display the contents of a file.</p>
+
+<h3 id="4-more-writing">4) More Writing</h3>
+
+<p>That is pretty neat! You wrote text into a file without using a text editor or a word processor, but what if you&rsquo;d&rsquo; like to write more than one line in that file?</p>
+
+<p>In your terminal, type:</p>
+
+<pre><code>$ echo &quot;Ingredients to create an Invisibility Potion:&quot; &gt; Invisibility_Potion.txt
+</code></pre>
+
+<p>If you use the &ldquo;cat&rdquo; command on Invisibility_Potion.txt, as a response, you should receive:</p>
+
+<pre><code>Ingredients to create an Invisibility Potion:
+</code></pre>
+
+<p>What happended to the &ldquo;Hello Alchemy!&rdquo; that was in the beginning??</p>
+
+<p><span class="underline">Answer:</span> It was overwritten. Used with the &ldquo;redirect operator&rdquo; (&gt;), the &ldquo;echo&rdquo; command overwrites the contents of a file.</p>
+
+<p>If we want to add some extra lines of text into the file, we need to use the &ldquo;append operator&rdquo; (&gt;&gt;). In your terminal, enter:</p>
+
+<pre><code>$ echo &quot;* 2 Luna Moth Wings&quot; &gt;&gt; Invisibility_Potion.txt
+</code></pre>
+
+<p>Notice that this time we used &ldquo;&gt;&gt;&rdquo; instead of just &ldquo;&gt;&rdquo;. If you use the &ldquo;cat&rdquo; command again (remember to use the up arrows) on &ldquo;Invisibility_Potion.txt&rdquo;, you should receive:</p>
+
+<pre><code>Ingredients to create an Invisibility Potion:
+* 2 Luna Moth Wings
+</code></pre>
+
+<p>Let&rsquo;s add the other ingredient:</p>
+
+<pre><code>$ echo &quot;* 3 Chaurus Eggs&quot; &gt;&gt; Invisibility_Potion.txt
+</code></pre>
+
+<p>If we display the contents of &ldquo;Invisibility_Potion.txt&rdquo; again, this would be the result:</p>
+
+<pre><code>Ingredients to create an Invisibility Potion:
+* 2 Luna Moth Wings
+* 3 Chaurus Eggs
+</code></pre>
+
+<h3 id="5-copying-files">5) Copying files</h3>
+
+<p>Now, let&rsquo;s say, you want to make a copy of this Invisibility Potion recipe and send it to a friend. This is very achievable by using the &ldquo;cp&rdquo; command.</p>
+
+<p>At your terminal type:</p>
+
+<pre><code>$ cp Invisibility_Potion.txt Invisibility_Potion_Copy.txt
+</code></pre>
+
+<p>The &ldquo;cp&rdquo; command stands for <strong>&ldquo;Copy&rdquo;</strong>. If you enter the &ldquo;ls&rdquo; command now, it should display two files in your folder:</p>
+
+<pre><code>Invisibility_Potion_Copy.txt Invisibility_Potion.txt    
+</code></pre>
+
+<p>And if you use the &ldquo;cat&rdquo; command with &ldquo;Invisibility_Potion_Copy.txt&rdquo; as an argument, the text should correspond with the contents of &ldquo;Invisibility_Potion.txt&rdquo;:</p>
+
+<pre><code>Ingredients to create an Invisibility Potion:
+* 2 Luna Moth Wings
+* 3 Chaurus Eggs
+</code></pre>
+
+<p>You succesfully copied a file, but what else we can do with it?</p>
+
+<h3 id="6-renaming-files-and-moving-files">6) Renaming Files and Moving files</h3>
+
+<p>Let&rsquo;s say that you don&rsquo;t like the name of the &ldquo;Invisibility_Potion_Copy.txt&rdquo; file because you feel it is too large, how can we change it?</p>
+
+<p>In your terminal type:</p>
+
+<pre><code>$ mv Invisibility_Potion_Copy.txt IPC.txt
+</code></pre>
+
+<p>The &ldquo;mv&rdquo; command stands for <strong>&ldquo;Move&rdquo;</strong>. In this case, we are moving the &ldquo;Invisibility_Potion_Copy.txt&rdquo; file into the same location, but changing it&rsquo;s name in the process. After using the &ldquo;ls&rdquo; command, you should see that your current files are:</p>
+
+<pre><code>IPC.txt Invisibility_Potion.txt
+</code></pre>
+
+<p>Now, if you wanted to move the &ldquo;ICP.txt&rdquo; file into another location, let&rsquo;s say, your Desktop, you could do this:</p>
+
+<pre><code>$ mv ICP.txt ~/Desktop
+</code></pre>
+
+<p>The tilde &ldquo;~&ldquo;, is shorthand for your home directory, using it this way you can easily access your Desktop directory from anywhere on your computer. The alternative would be to write:</p>
+
+<pre><code>$ mv ICP.txt ../../Desktop/
+</code></pre>
+
+<p>That would mean to go &ldquo;up&rdquo;, then &ldquo;up&rdquo; again, and then &ldquo;enter&rdquo; inside the Desktop directory. But that would be more complicated, and could not work depending on where you created the &ldquo;The_WebDev_Blog&rdquo; and &ldquo;The_Command_Line&rdquo; directories.</p>
+
+<p>Minimize your windows, and check out your desktop, you should have the &ldquo;ICP.txt&rdquo; file somewhere in that mess, open it with a text editor and see it&rsquo;s content.</p>
+
+<p>Back in your terminal, at the &ldquo;The_Command_Line&rdquo; directory, use the &ldquo;ls&rdquo; command, you should have only one file:</p>
+
+<pre><code>Invisibility_Potion.txt
+</code></pre>
+
+<p>All seems fine, but creating scrolls, writing into them, copying their contents and etcetera, leaved you a little paranoid. You are a little afraid that your enemies find this Invisibility Potion Recipe and use it against you. So you decide that you should get rid of this recipe.</p>
+
+<h3 id="7-deleting-files">7) Deleting files</h3>
+
+<p>To delete files <strong>permanently</strong>, we use the &ldquo;rm&rdquo; command, like this:</p>
+
+<pre><code>$ rm Invisibility_Potion.txt
+</code></pre>
+
+<p>The &ldquo;rm&rdquo; command stands for <strong>&ldquo;Remove&rdquo;</strong> and here we are using it to delete our &ldquo;Invisibility_Potion.txt&rdquo; file. If you use the &ldquo;ls&rdquo; command, your directory should be empty of files.</p>
+
+<div class="notices warning" ><p>What can you do if you want to recover your &ldquo;Invisibility_Potion.txt&rdquo; file? <br><br>Pretty much nothing (feel lucky that you have a backup in your Desktop haha). The files deleted using the &ldquo;rm&rdquo; command are completely removed from your computer. They&rsquo;re not even in the Trash, so be extra careful when using the &ldquo;rm&rdquo; command.</p>
+</div>
+
+
+<p>Now that you have zero files, I want you to create a couple of dummy files. I&rsquo;ll do it like this:</p>
+
+<pre><code>$ touch dummy.txt
+$ touch dummy.py
+$ touch dummy.html
+</code></pre>
+
+<div class="notices note" ><p>Notice that using &ldquo;touch&rdquo;, you can create files with any extension that you want.</p>
+</div>
+
+
+<p>Make use of the &ldquo;cd&rdquo; command and go one directory above (&ldquo;cd ..&rdquo; if you don&rsquo;t remember how). If you use &ldquo;ls&rdquo;, you should receive only one directory as a response:</p>
+
+<pre><code>The_Command_Line
+</code></pre>
+
+<p>Try to delete this directory with the &ldquo;rm&rdquo; command:</p>
+
+<pre><code>$ rm The_Command_Line
+</code></pre>
+
+<p>It doesn&rsquo;t work&hellip; As a response, you should receive something like:</p>
+
+<pre><code>rm: cannot remove 'The_Command_Line/': Is a directory
+</code></pre>
+
+<p>It failed because you can&rsquo;t delete a directory with just the &ldquo;rm&rdquo; command. To remove a directory, you need to learn what &ldquo;flags&rdquo; are.</p>
+
+<p>In your terminal, enter:</p>
+
+<pre><code>$ rm -r The_Command_Line
+</code></pre>
+
+<p>If you use the &ldquo;ls&rdquo; command, you should see that you have succesfully deleted &ldquo;The_Command_Line&rdquo; directory.</p>
+
+<p>The &ldquo;-r&rdquo; after the &ldquo;rm&rdquo; command is called a &ldquo;flag&rdquo; or &ldquo;option&rdquo;. Flags can change and even enhance commands, and are added using a single dash (-) after the command.</p>
+
+<p>In this case the &ldquo;-r&rdquo; flag stands for <em>recursive</em> which means that it is going to remove all the contents of the directory <a href="https://www.google.co.ve/search?q=recursion">recursively</a>. Be very careful with this option, it is not unheard of people that deleted all of their system files with this combination.</p>
+
+<hr />
+
+<h3 id="quiz">Quiz</h3>
+
+<p>Solve the quiz that correspond this page and then move into the exercises.</p>
+
+<a  href="http://lrodriguez.me/The_WebDev_Blog_Quizzes/The_Command_Line/Quiz_Number_2/index.html" target="_blank"  class="btn btn-default">
+  
+  
+  
+    
+  
+  Go to Quiz
+  
+  <i class="fa fa-share"></i>
+  
+</a>
+
+
+<h3 id="exercises">Exercises</h3>
+
+<ol>
+<li>In your <em>home</em> directory, create a directory called &ldquo;The_WebDev_Blog&rdquo;.</li>
+<li>Enter the &ldquo;The_WebDev_Blog&rdquo; directory using the &ldquo;cd&rdquo; command.</li>
+<li>Inside of the &ldquo;The_WebDev_Blog&rdquo; directory create a directory called &ldquo;The_Command_Line&rdquo;.</li>
+<li>Use the &ldquo;ls&rdquo; command to confirm that you have created the &ldquo;The_Command_Line&rdquo; directory.</li>
+<li>Enter the &ldquo;The_Command_Line&rdquo; directory</li>
+<li>Use the &ldquo;pwd&rdquo; command to know where are you located</li>
+<li>Return to your home directory using the &ldquo;cd ..&rdquo; command (twice)</li>
+</ol>
+
+<p>When you&rsquo;ve finished the exercises, go to the next page so you can learn some helpful shortcuts!</p>
+
+<!--
+
+> Let’s pick up (more or less) where we left off in Section 1, with an echo command to print out the first line of Shakespeare’s first sonnet (Listing 6):
+
+    $ echo "From fairest creatures we desire increase,"
+    From fairest creatures we desire increase,
+
+> Our task now is to create a file containing this line. Even without the benefit of a text editor, it is possible to do this using the redirect operator >:
+
+    $ echo "From fairest creatures we desire increase," > sonnet_1.txt
+
+> (Recall that you can use up arrow to retrieve the previous command rather than typing it from scratch.) Here the right angle bracket > takes the string output from echo and redirects its contents to a file called sonnet_1.txt.
+
+> How can we tell if the redirect worked? We’ll learn some more advanced command-line tools for inspecting files in Section 3, but for now we’ll use the cat command, which simply dumps the contents of the file to the screen:
+
+    $ cat sonnet_1.txt
+    From fairest creatures we desire increase,
+
+> The name cat is short for “concatenate”, which is a hint that it can be used to combine the contents of multiple files, but the usage above (to dump the contents of a single file to the screen) is extremely common. Think of cat as a “quick-and-dirty” way to view the contents of a particular file (Figure 14).14
+cat
+Figure 14: Viewing a file with cat.
+
+> In order to add the second line of the sonnet (in modernized spelling), we can use the append operator >> as follows:
+
+    $ echo "That thereby beauty's Rose might never die," >> sonnet_1.txt
+
+> This just adds the line to the end of the given file. As before, we can see the result using cat:
+
+    $ cat sonnet_1.txt
+    From fairest creatures we desire increase,
+    That thereby beauty's Rose might never die,
+
+> (To get to this command, I hope you just hit up arrow twice instead of retyping it. If so, you’re definitely getting the hang of this.) The result above shows that the double right angle bracket >> appended the string from echo to the file sonnet_1.txt as expected.
+
+> Modernized treatments of the Sonnets sometimes emend Rose to rose (thereby obscuring the likely meaning), and we can make a second file following this convention using two more calls to echo:
+
+    $ echo "From fairest creatures we desire increase," > sonnet_1_lower_case.txt
+    $ echo "That thereby beauty's rose might never die," >> sonnet_1_lower_case.txt
+
+> In order to facilitate the comparison of files that are similar but not identical, Unix systems come with the helpful diff command:
+
+    $ diff sonnet_1.txt sonnet_1_lower_case.txt
+    < That thereby beauty's Rose might never die,
+
+    > That thereby beauty's rose might never die,
+
+> When discussing computer files, diff is frequently employed both as a noun (“What’s the diff between those files?”) and as a verb (“You should diff the files to see what changed.”). As with many technical terms, this sometimes bleeds over into common usage, such as “Diff present ideas against those of various past cultures, and see what you get.”15
+
+> Perhaps the mostly frequently typed command on the Unix command line is ls, short for “list” (Listing 8).
+
+> Listing 8: Listing files and directories with ls. (Output will vary.)
+
+    $ ls
+    Desktop
+    Downloads
+    sonnet_1.txt
+    sonnet_1_reversed.txt
+
+> The ls command simply lists all the files and directories in the current directory (except for those that are hidden, which we’ll learn more about in a moment). In this sense, it’s effectively a command-line version of the graphical browser used to show files and directories (also called “folders”), as seen in Figure 15. (We’ll sharpen our understanding of directories and folders in Section 4.) As with a graphical file browser, the output in Listing 8 is just a sample, and results will differ based on the details of your system. (This goes for all the ls examples, so don’t be concerned if there are minor differences in output.)
+
+> The ls command can be used to check if a file (or directory) exists, because trying to ls a nonexistent file results in an error message, as seen in Listing 9.
+Listing 9: Running ls on a nonexistent file.
+
+    $ ls foo
+    ls: foo: No such file or directory
+    $ touch foo
+    $ ls foo
+    foo
+
+> Listing 9 uses the touch command to create an empty file with the name foo (Box 7), so the second time we run ls the error message is gone. (The stated purpose of touch is to change the modification time on files or directories, but (ab)using touch to create empty files as in Listing 9 is a common Unix idiom.)
+
+One useful ability of ls is support for the wildcard character * (read “star”). For example, to list all files ending in “.txt”, we would type this:
+
+$ ls *.txt
+sonnet_1.txt
+sonnet_1_reversed.txt
+
+Here *.txt (read “star dot tee-ex-tee”) automatically expands to all the filenames that match the pattern “any string followed by .txt”.
+
+Finally, Unix has the concept of “hidden files (and directories)”, which don’t show up by default when listing files. Hidden files and directories are identified by starting with a dot ., and are commonly used for things like storing user preferences. For example, in Learn Enough Git to Be Dangerous, we’ll create a file called .gitignore that tells a particular program (Git) to ignore files matching certain patterns. As a concrete example, to ignore all files ending in “.txt”, we could do this:
+
+$ echo "*.txt" > .gitignore
+$ cat .gitignore
+*.txt
+
+If we then run ls, the file won’t show up, because it’s hidden:
+
+$ ls
+sonnet_1.txt
+sonnet_1_reversed.txt
+
+To get ls to display hidden files and directories, we need to pass it the -a option (for “all”):
+
+$ ls -a
+.           .gitignore      sonnet_1_reversed.txt
+..          sonnet_1.txt
+
+Now .gitignore shows up, as expected. (We’ll learn what . and .. refer to in Section 4.3.)
+
+Next to listing files, probably the most common file operations involve renaming, copying, and deleting them. As with listing files, most modern operating systems provide a graphical user interface to such tasks, but in many contexts it is more convenient to perform them at the command line.
+
+The way to rename a file is with the mv command, short for “move”:
+
+$ echo "test text" > test
+$ mv test test_file.txt
+$ ls
+test_file.txt
+
+This renames the file called test to test_file.txt. The final step in the example runs ls to confirm that the file renaming was successful, but system-specific files other than the test file are omitted from the output shown. (The name “move” comes from the general use of mv to move a file to a different directory (Section 4), possibly renaming it en route. When the origin and target directories coincide, such a “move” reduces to a simple renaming.)
+
+The way to copy a file is with cp, short for “copy”:
+
+$ cp test_file.txt second_test.txt
+$ ls
+second_test.txt
+test_file.txt
+
+Finally, the command for deleting a file is rm, for “remove”:
+
+$ rm second_test.txt
+remove second_test.txt? y
+$ ls second_test.txt
+ls: second_test.txt: No such file or directory
+
+Note that, on many systems, by default you will be prompted to confirm the removal of the file. Any answer starting with the letter “y” or “Y” will cause the file to be deleted, and any other answers will prevent the deletion from occurring.
+
+By the way, in the calls to cp and rm above, I would almost certainly not type out test_file.txt or second_test.txt. Instead, I would type something like test⇥ or sec⇥ (where ⇥ represents the tab key (Table 1)), thereby making use of tab completion (Box 8).
+Box 8. Tab completion
+
+Most modern command-line programs (shells) support tab completion, which involves automatically completing a word if there’s only one valid match on the system. For example, if the only file starting with the letters “tes” is test_file, we could create the command to remove it as follows:
+
+ $ rm tes⇥
+
+where ⇥ is the tab key (Table 1). The shell would then complete the filename, yielding rm test_file. Especially with longer filenames (or directories), tab completion can save a huge amount of typing. It also lowers the cognitive load, since it means you don’t have to remember the full name of the file—only its first few letters.
+
+If the match is ambiguous, as would happen if we had files called foobarquux and foobazquux, the word will be completed only as far as possible, so
+
+ $ ls foo⇥
+
+would be completed to
+
+ $ ls fooba
+
+If we then hit tab again, we would see a list of matches:
+
+ $ ls fooba⇥
+ foobarquux foobazquux
+
+We could then type more letters to resolve the ambiguity, so typing the r after fooba and hitting ⇥ would yield
+
+ $ ls foobar⇥
+
+which would be completed to foobarquux. This situation is common enough that experienced command-line users will often just hit something like f⇥⇥ to get the shell to show all the possibilities:
+
+ $ ls f⇥⇥
+ figure_1.png foobarquux  foobazquux
+
+Additional letters would then be typed as usual to resolve the ambiguity.
+
+The default behavior of rm on an unconfigured Unix system is actually to remove the file without confirmation, but (because deletion is irreversible) many systems alias the rm command to use an option to turn on confirmation. (As you can verify by running man rm, this option is -i, so in fact rm is really rm -i.) There are many situations where confirmation is inconvenient, though, such as when you’re deleting a list of files and don’t want to have to confirm each one. This is especially common when using the wildcard * introduced in Section 2.2. For example, to remove all the files ending with “.txt” using a single command, without having to confirm each one, you can type this:
+
+$ rm -f *.txt
+
+Here -f (for “force”) overrides the implicit -i option and removes all files immediately. (N.B. You are now in a position to understand the command in Figure 2.)
+
+EXERCISES
+
+-->
+
+
+<footer class=" footline" >
+	
+</footer>
+
+
+        
+        </div> 
+      </div>
+
+    <div id="navigation">
+        
+        
+        
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+        
+        
+
+
+        
+            <a class="nav nav-prev" href="/the_command_line/first_steps/" title="First Steps"> <i class="fa fa-chevron-left"></i></a>
+        
+        
+            <a class="nav nav-next" href="/the_command_line/shortcuts/" title="Shortcuts" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+        
+    </div>
+
+    </section>
+    
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/js/clipboard.min.js?1504882645"></script>
+    <script src="/js/perfect-scrollbar.min.js?1504882645"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1504882645"></script>
+    <script src="/js/jquery.sticky-kit.min.js?1504882645"></script>
+    <script src="/js/featherlight.min.js?1504882645"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1504882645"></script>
+    <script src="/js/highlight.pack.js?1504882645"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/js/modernizr.custom.71422.js?1504882645"></script>
+    <script src="/js/learn.js?1504882645"></script>
+    <script src="/js/hugo-learn.js?1504882645"></script>
+
+    <link href="/mermaid/mermaid.css?1504882645" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1504882645"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    
+
+  </body>
+</html>
+

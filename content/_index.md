@@ -4,9 +4,9 @@
 
 Welcome to The WebDev Blog, I'm very glad you are here!
 
-This website is made as an attempt to teach you, and in the process learn myself, what I believe are the fundamentals technologies when it comes to becoming a **Full-Stack Web Developer**.
+This website is made as an attempt to teach you, and in the process learn myself, what I believe are the fundamentals technologies to become a **Full-Stack Web Developer**.
 
-I'm going to write learning materials in the form of tutorials, quizzes and projects (both as code alongs and homeworks)
+I'm going to write learning materials in the form of tutorials, quizzes and projects (both as code-alongs and homeworks)
 for anyone who wants to learn along with me.
 
 For starters, some of the topics that we're going to cover are:

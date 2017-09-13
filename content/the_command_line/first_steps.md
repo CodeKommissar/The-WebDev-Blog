@@ -16,15 +16,15 @@ The first step to start playing the game, is well, to open the game:
 
 #### On Ubuntu
 
-1. Open the Dash by clicking the Ubuntu icon in the upper-left
-2. Type "terminal"
-3. Select the Terminal application from the results that appear and click it
+1. Open the Dash by clicking the Ubuntu icon in the upper-left.
+2. Type "terminal" in the search box.
+3. Select the Terminal application from the results that appear and click it.
 
 #### On Mac OS
 
 1. Hold down the command key and hit the spacebar.
 2. In the top right the blue "search bar" will pop up.
-3. Type: terminal
+3. Type "terminal" in the search bar.
 4. Click on the Terminal application that looks like a black box.
 
 #### On Windows
@@ -112,7 +112,7 @@ In your terminal type:
 
 The "ls" command means **"List"**. This command *lists* all of the non-hidden files that are in the current directory. In other words, it let's you "view" what is inside of the directory in which you currently are.
 
-In my case, the answer that I received from the computer when I typed the ls command was:
+In my case, the answer that I received from the computer when I typed the "ls" command was:
 
 	Desktop
 	Documents
@@ -153,7 +153,7 @@ Now, if I type the "ls" command, the response that I receive is:
 	Public
 	The_WebDev_Blog
 
-You can see that the "First_Directory" directory has been successfully created.
+You can see (between the Downloads folder and the hello.py file) that the "First_Directory" directory has been successfully created.
 
 ###  7) Walking into new Rooms
 
@@ -169,7 +169,7 @@ The "cd" command stands for **"Change Directory"**, it lets you move between dir
 
 That means that we've succesfully changed the directories.
 
-If you now type the "ls" command, you should get an empty response because the First_Directory itself is empty.
+If you now type the "ls" command, you should get an blank response because the First_Directory itself is empty.
 
 If you want to go back to the home directory, you can type this:
 

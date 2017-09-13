@@ -6,7 +6,7 @@ weight: 3
 
 ---
 
-Before we begin this trip, let me introduce myself.
+Before we begin this journey, let me introduce myself.
 
 ![A photo of myself](me.jpg?width=60%)
 

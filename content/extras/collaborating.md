@@ -15,4 +15,4 @@ You can help the blog in many diferent ways, but for now I'll just list three of
 
 2. <span class="underline">Feedback:</span> Send me a mail at <a href="mailto:CodeKommissar@Gmail.com?Subject=Hello!" target="_top">CodeKommissar@Gmail.com</a> and tell me what you think of the site (what things you like like/dislike, what could be improved, what topics you'd like to see here, etc)
 
-3. <span class="underline">Economic Support:</span> If you'd like to express your support financially, feel free to check [The WebDevBlog's Patreon Page](https://www.patreon.com/TheWebDevBlog) and make a donation there, every dollar helps.
+3. <span class="underline">Economic Support:</span> If you'd like to express your support financially, feel free to use my personal [PayPal.Me](https://www.paypal.me/codekommissar) link for a one-time donation or alternatively check [The WebDevBlog's Patreon Page](https://www.patreon.com/TheWebDevBlog) and make a donation from there.<br> Every dollar counts :).

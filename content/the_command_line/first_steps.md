@@ -207,12 +207,12 @@ Solve the quiz that correspond this page and then move into the exercises.
 
 ### Exercises
 
-1. In your *home* directory, create a directory called "The_WebDev_Blog".
-2. Enter the "The_WebDev_Blog" directory using the "cd" command.
+1. In your *home* directory, create a directory called "The_WebDev_Blog" using the **mkdir** command.
+2. Enter the "The_WebDev_Blog" directory using the **cd** command.
 3. Inside of the "The_WebDev_Blog" directory create a directory called "The_Command_Line".
-4. Use the "ls" command to confirm that you have created the "The_Command_Line" directory.
-5. Enter the "The_Command_Line" directory
-6. Use the "pwd" command to know where are you located
-7. Return to your home directory using the "cd .." command (twice)
+4. Use the **ls** command to confirm that you have created the "The_Command_Line" directory.
+5. Enter inside the "The_Command_Line" directory.
+6. Use the **pwd** command to know where are you located.
+7. Return to your home directory using the **cd ..** command (twice)
 
 When you've finished the exercises, go to the next page so you can learn some helpful shortcuts!

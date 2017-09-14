@@ -2,27 +2,27 @@
 title: "Shortcuts"
 date: "2017-05-17T14:46:34-04:00"
 draft: false
-weight: 4
+weight: 3
 
 ---
 
 Now that you know some basic commands, we are going to learn some shortcuts.
 
-I hope that learning these shortcuts serve us two purposes; first, after you learn them, shortcuts are going to save you some precious time while using the command line, and two, if you still don't feel 100% comfortable while using the terminal, learning the shortcuts can help you overcome some of that command line resistance.
+I hope that learning these shortcuts serve us two purposes; first, after you learn them, shortcuts are going to save you some precious time while using the command line, and second, if you still don't feel 100% comfortable while using the terminal, learning these shortcuts can help you overcome some of that command line resistance.
 
 ### 1) Changing between windows
 
-<span class="underline">Alt + Tab:</span> To try this shortcut, have only two programs open; your browser with this page open and your terminal. Press this two keys and you should rapidly change between the two windows. The Alt + Tab  shortcut switches between applications without using the mouse.
+<span class="underline">Alt + Tab:</span> To try this shortcut, you should have only two programs open; your web browser with this page that you're currently seeing and your terminal. Press this two keys and you should rapidly change between the two windows. The Alt + Tab  shortcut let you switch between applications without using the mouse.
 
 ### 2) History
 
-<span class="underline">The history command</span> In your terminal type: "**history**" (without the double quotes). You should get a log of the commands you have recently typed.
+<span class="underline">The history command:</span> In your terminal type the command: "**history**" (without the double quotes) and press Enter. You should get a log of the commands you have recently typed.
 
-<span class="underline">Up/Down Arrows:</span> Use the up and down arrows on your keyboard to quickly move through your last recent commands. You can press these shortcuts multiple times to navigate through your history and use one of the commands that you previously used.
+<span class="underline">Up/Down Arrows:</span> Use the up and down arrows on your keyboard to quickly move through your last recent commands. You can press these shortcuts multiple times to navigate through your history and re-use one of the commands that you previously used.
 
 ### 3) Tab Completion
 
-<span class="underline">Tab:</span> This is one of everyone's favorite shortcuts. While typing a file, directory, or command name, press Tab and your terminal will try to autocomplete what you were typing (if possible). If not, it will show you various possible matches.
+<span class="underline">Tab:</span> This is one of everyone's favorite shortcuts. While typing a file, directory, or command name, press Tab and your terminal will try to autocomplete what you were typing (if possible). If there is more than option to autocomplete, it will show you the various possible matches.
 
 For example, let's say you are in your home directory and you want to go to your Desktop; you could just type "**cd De**", hit Tab to autocomplete the rest of the name of the directory and then press enter to change directories.
 
@@ -38,21 +38,29 @@ If I wanted to go the Downloads directory, I should type "**cd Dow**" + Tab, and
 
 ### 4) Pasting Commands
 
-<span class="underline">Ctrl + Shift + V:</span> To paste text into the terminal, instead of using the classic Ctrl + V, you are going to add the Shift key for paste to function.
+<span class="underline">Ctrl + Shift + V:</span> To paste text into the terminal, instead of using the classic Ctrl + V, you are going to need to add the Shift key for paste to function.
 
 ### 5) Moving the Cursor
 
+Paste this into your terminal:
+
+	the quick brown fox jumps over the lazy dog
+
+So you can test the following shortcuts.
+
 <span class="underline">Ctrl+Left</span> and <span class="underline">Ctrl+Right:</span> Hitting Ctrl and the left or right arrow keys jumps between words in your command line.
 
-<span class="underline">Ctrl+A</span> or <span class="underline">Home:</span> Moves your cursor to the beginning of the line. This is useful if you've typed a command but realize that there's a typo in the first word. Instead of holding down the left arrow key, just hit Ctrl+A/Home and correct it.
+<span class="underline">Ctrl+A</span> or <span class="underline">Home:</span> Moves your cursor to the beginning of the line. This is useful if you've typed a command but realize that there's a typo in the first word. Instead of holding down the left arrow key, just hit Ctrl+A or Home and correct it.
 
 <span class="underline">Ctrl+E or End:</span> Moves your cursor to the end of the line.
 
 ### 6) Deleting Commands
 
+<span class="underline">Ctrl+W:</span> This deletes the word before the cursor only.
+
 <span class="underline">Ctrl+U:</span> This clears the entire line so you can type in a completely new command.
 
-<span class="underline">Ctrl+W:</span> This deletes the word before the cursor only.
+You can use the text from the previous lesson to try these shortcuts ;).
 
 ### 7) Back to the Home Directory
 
@@ -78,16 +86,16 @@ If you are in any directory different to your home directory, try typing only th
 
 I really don't own a mac, but the closest I got for a shortcut to quickly open the terminal is:
 
-<span class="underline">CMD + Space</span> to open spotlight search, and then type in terminal.
+<span class="underline">CMD + Space</span> to open spotlight search, and then type in "terminal".
 
 #### On Windows
 
-<span class="underline">Bring cygwin/babun to your desktop</span> and use it from there.
+<span class="underline">Bring Cygwin to your desktop</span> and use it from there.
 
 ---
 
 ### Exercises
 
-If you haven't been trying these shortcuts at your terminal, this is the moment to do it. Go through each shortcut and test it.
+If you haven't been trying these shortcuts at your terminal, this is the moment to do so. Go through each shortcut and test it.
 
-When you have finished testing and playing with each one of the ten sections of shortcuts, go to the next page.
+When you have finished testing and playing with each one of the ten lessons of shortcuts, go to the next page.

@@ -24,13 +24,4 @@ To write our code, we'll need a text editor. Basically, a text editor is a progr
 
 In this tutorial I'll be using [Atom](https://atom.io) which is a specialized text editor for programming created by the folks at [Github](https://github.com). Atom comes with some features that will make our lives easier (like syntax highlighting) while writting our HTML.
 
-Go to the Atom link above, download the correct version for your operating system and install it. Then you'll be ready for the exercises.
-
----
-
-In this course, we recommend that you use Sublime Text 3. It is one of the most popular editors, in large part because it is easy to use and learn, lightweight, highly configurable, free to download, and has a rich ecosystem of plugins and integrations.
-
-
-Note that Sublime Text 3 is free to download and use, but if you choose not to purchase it, you'll regularly be prompted to consider paying. At the time of writing, Sublime Text 3 costs $70 to purchase. It is a great piece of software, and once you start using it, if you like it as much as we do at Thinkful, consider supporting the project by purchasing it.
-
-Once you've downloaded and installed Sublime Text, open the program. You'll see a blank file that looks like this:
+Go to the Atom link above, download the correct version for your operating system and install it. Then you'll be ready for the next page.

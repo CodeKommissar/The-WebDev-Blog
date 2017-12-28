@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://thewebdevblog.tech/html/intro/</loc>
+    <lastmod>2017-09-10T22:17:38-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://thewebdevblog.tech/intro/requirements/</loc>
     <lastmod>2017-09-04T20:02:29-04:00</lastmod>
   </url>
@@ -23,6 +28,11 @@
   </url>
   
   <url>
+    <loc>http://thewebdevblog.tech/html/installations/</loc>
+    <lastmod>2017-09-10T22:17:57-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://thewebdevblog.tech/the_command_line/</loc>
     <lastmod>2017-09-04T20:00:48-04:00</lastmod>
   </url>
@@ -40,6 +50,16 @@
   <url>
     <loc>http://thewebdevblog.tech/intro/beginner_advice/</loc>
     <lastmod>2017-04-18T19:57:42-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://thewebdevblog.tech/html/resources/</loc>
+    <lastmod>2017-09-10T22:18:29-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://thewebdevblog.tech/html/</loc>
+    <lastmod>2017-09-10T21:58:54-04:00</lastmod>
   </url>
   
   <url>
@@ -69,7 +89,7 @@
   
   <url>
     <loc>http://thewebdevblog.tech/</loc>
-    <lastmod>2017-09-04T20:02:29-04:00</lastmod>
+    <lastmod>2017-09-10T22:17:38-04:00</lastmod>
   </url>
   
   <url>

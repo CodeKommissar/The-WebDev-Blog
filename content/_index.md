@@ -15,10 +15,10 @@ For starters, some of the topics that we're going to cover are:
 3. <span class="underline">CSS:</span> To Style our web pages.
 4. <span class="underline">JavaScript:</span> To add Interactivity to our web pages.
 
-Have in mind that I'm not an expert and that I don't even work as web developer (yet). I'm learning just as you are, so I don't want to pretend that I know it all. I just want to share the things that I've learned in the past or that I'm currently learning.
+Have in mind that I'm not an expert ninja programmer and that I don't even work as web developer (yet). I'm just a beginner that wants to share the things I've learned in the past or that I'm currently learning.
 
-If you feel attracted to the idea of following along the path of someone who wants to become a great programmer and help others along the way, keep reading through the pages ;)
+If you feel attracted to the idea of following along the path of someone who wants to become a great programmer and help others along the way, keep reading through the pages ;).
 
 {{% notice tip %}}
-The simplest way to navigate the blog is to use the Next and Previous arrows (<i class="fa fa-chevron-left"></i> <i class="fa fa-chevron-right"></i>) or your Left and Right keyboard arrows on each page.
+The simplest way to navigate the blog is to use the Next and Previous arrows (<i class="fa fa-chevron-left"></i> <i class="fa fa-chevron-right"></i>) or through your Left and Right keyboard arrows on each page.
 {{% /notice %}}

@@ -12,3 +12,4 @@ List of resources I used to make this section:
 * [Mark Pilgrim's Dive Into HTML5 Book](http://diveintohtml5.info)
 * [Shay Howe's Learn to Code HTML & CSS Book](http://learn.shayhowe.com/html-css/)
 * [Colt Steele's The Web Developer Bootcamp Course](https://www.udemy.com/the-web-developer-bootcamp/)
+* [Jonas Schmedtmann's Build Responsive Real World Websites with HTML5 and CSS3 Course](https://www.udemy.com/design-and-develop-a-killer-website-with-html5-and-css3)

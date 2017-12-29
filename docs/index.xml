@@ -17,9 +17,8 @@
       <pubDate>Sun, 10 Sep 2017 22:17:38 -0400</pubDate>
       
       <guid>http://thewebdevblog.tech/html/intro/</guid>
-      <description>HTML stands for Hyper Text Markup Language, it is a language that computers can understand, but it isn&amp;rsquo;t a Programming Language in itself, as its name tell us, it is a Markup Language.
-High Level Overview HTML is made with &amp;lsquo;tags&amp;rsquo; which allow us to describe the contents of our website, just to name a couple, we have  tags for our Headings and  tags for paragraphs.
-Tags (usually come in pairs); an opening tag and closing tag.</description>
+      <description>HTML describes the structure of web pages and it stands for Hyper Text Markup Language, it is a language that computers can understand, but it isn&amp;rsquo;t a Programming Language in itself, as its name tell us, it is a Markup Language.
+HTML is composed of elements which, on most cases, have two tags; an opening tag and a closing tag (which has an extra forward slash in it). HTML mission is to tell the browser what do we want to display.</description>
     </item>
     
     <item>
@@ -104,7 +103,7 @@ The first step to start playing the game, is well, to open the game:
       
       <guid>http://thewebdevblog.tech/html/resources/</guid>
       <description>List of resources I used to make this section:
- MDN&amp;rsquo;s HTML Guide HTML Dog&amp;rsquo;s HTML Tutorial Mark Pilgrim&amp;rsquo;s Dive Into HTML5 Book Shay Howe&amp;rsquo;s Learn to Code HTML &amp;amp; CSS Book Colt Steele&amp;rsquo;s The Web Developer Bootcamp Course Jonas Schmedtmann&amp;rsquo;s Build Responsive Real World Websites with HTML5 and CSS3 Course  </description>
+ MDN&amp;rsquo;s HTML Guide HTML Dog&amp;rsquo;s HTML Tutorial Jon Duckett&amp;rsquo;s HTML and CSS: Design and Build Websites Book Shay Howe&amp;rsquo;s Learn to Code HTML &amp;amp; CSS Book Colt Steele&amp;rsquo;s The Web Developer Bootcamp Course Jonas Schmedtmann&amp;rsquo;s Build Responsive Real World Websites with HTML5 and CSS3 Course  </description>
     </item>
     
     <item>

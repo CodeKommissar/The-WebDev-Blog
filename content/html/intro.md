@@ -5,21 +5,25 @@ draft: false
 weight: 1
 ---
 
-HTML stands for Hyper Text Markup Language, it is a language that computers
-can understand, but it isn't a Programming Language in itself, as its name tell us,
-it is a Markup Language.
+HTML describes the structure of web pages and it stands for Hyper Text Markup
+Language, it is a language that computers can understand, but it isn't a
+Programming Language in itself, as its name tell us, it is a Markup Language.
+
+HTML is composed of elements which, on most cases, have two tags; an opening
+tag and a closing tag (which has an extra forward slash in it). HTML mission
+is to tell the browser what do we want to display.
 
 ### High Level Overview
 
-HTML is made with 'tags' which allow us to describe the contents of our website,
-just to name a couple, we have <h1> tags for our Headings and <p> tags
-for paragraphs.
+As we just say, HTML is made of 'elements' which allow us to describe the
+contents of our website, just to name a couple of elements, we have a `<h1></h1>`
+element for our Headings and a `<p></p>` element for paragraphs.
 
 Tags (usually come in pairs); an opening tag and closing tag. For example,
 to describe the days of the week as a single paragraph in HTML, we would go like
 this:
 
-<p>Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday</p>
+    <p>Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday</p>
 
 Notice the two tags: <p> and </p>, the first tag (opening) doesn't have a slash
 and the last tag (closing) does have a slash.

@@ -17,7 +17,9 @@
       <pubDate>Sun, 10 Sep 2017 22:17:38 -0400</pubDate>
       
       <guid>http://thewebdevblog.tech/html/intro/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+      <description>HTML stands for Hyper Text Markup Language, it is a language that computers can understand, but it isn&amp;rsquo;t a Programming Language in itself, as its name tell us, it is a Markup Language.
+High Level Overview HTML is made with &amp;lsquo;tags&amp;rsquo; which allow us to describe the contents of our website, just to name a couple, we have  tags for our Headings and  tags for paragraphs.
+Tags (usually come in pairs); an opening tag and closing tag.</description>
     </item>
     
     <item>

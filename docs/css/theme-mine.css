@@ -100,6 +100,10 @@ div#footer {
 	text-decoration: underline;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 h3#chapter-0, h3#chapter-1, h3#chapter-2, h3#chapter-x {
 	text-decoration: none !important;
 }

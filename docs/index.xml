@@ -17,8 +17,8 @@
       <pubDate>Sun, 10 Sep 2017 22:17:38 -0400</pubDate>
       
       <guid>http://thewebdevblog.tech/html/intro/</guid>
-      <description>HTML stands for Hyper Text Markup Language and its job is to describe the structure and content of web pages. It is a language that computers can understand, but it isn&amp;rsquo;t a Programming Language by itself, as its name tell us, it is a Markup Language.
-HTML is composed of elements which, on most cases, have two tags; an opening tag and a closing tag (which has an extra forward slash in it).</description>
+      <description>HTML stands for: Hyper Text Markup Language and its job is to describe the structure and content of web pages. It is a language that computers can understand, but it isn&amp;rsquo;t a Programming Language by itself, as its name tell us, it is just a Markup Language.
+HTML is composed of elements which, on most cases, have two tags; an opening tag and a closing tag (which has an extra forward slash on it).</description>
     </item>
     
     <item>
@@ -60,7 +60,7 @@ My email direction is in the next page, so feel free to contact me if:</descript
       
       <guid>http://thewebdevblog.tech/html/installations/</guid>
       <description>All right, to start learning HTML, first we need to install a couple of programs into our computer; a Web Browser and a Text Editor.
-Web Browser If you are reading this, I&amp;rsquo;m 99% sure that you are using a web browser right now. For this tutorial a modern version of Mozilla Firefox or Google Chrome should be more than fine to let us view our web pages.
+Web Browser If you are reading this, I&amp;rsquo;m 99% sure that you are using a web browser right now. For this tutorial a modern version of Mozilla Firefox or Google Chrome should be more than fine to develop our web pages.
 If you already have one of those browsers installed on your computer, keep reading.</description>
     </item>
     
@@ -97,13 +97,14 @@ The first step to start playing the game, is well, to open the game:
     </item>
     
     <item>
-      <title>Resources</title>
-      <link>http://thewebdevblog.tech/html/resources/</link>
-      <pubDate>Sun, 10 Sep 2017 22:18:29 -0400</pubDate>
+      <title>First Steps</title>
+      <link>http://thewebdevblog.tech/html/first_steps/</link>
+      <pubDate>Sun, 10 Sep 2017 22:17:57 -0400</pubDate>
       
-      <guid>http://thewebdevblog.tech/html/resources/</guid>
-      <description>List of resources I used to make this section:
- MDN&amp;rsquo;s HTML Guide HTML Dog&amp;rsquo;s HTML Tutorial Jon Duckett&amp;rsquo;s HTML and CSS: Design and Build Websites Book Shay Howe&amp;rsquo;s Learn to Code HTML &amp;amp; CSS Book Colt Steele&amp;rsquo;s The Web Developer Bootcamp Course Jonas Schmedtmann&amp;rsquo;s Build Responsive Real World Websites with HTML5 and CSS3 Course  </description>
+      <guid>http://thewebdevblog.tech/html/first_steps/</guid>
+      <description>You still remember how to use The Command Line, right?
+If you&amp;rsquo;re new to this blog and don&amp;rsquo;t know how to use the terminal, or if you already forgot the basic commands, give that section a quick review and come back. Why? Because you will be doing your first assignment right now:
+ Open your terminal, you should be in your home directory. Enter inside your &amp;ldquo;The_WebDev_Blog&amp;rdquo; directory using the cd command.</description>
     </item>
     
     <item>
@@ -125,6 +126,16 @@ I hope that learning these shortcuts serve us two purposes; first, after you lea
       <description>Before we begin this journey, let me introduce myself.
 My name is Luis and I&amp;rsquo;m from Venezuela. Currently I&amp;rsquo;m 20 years old and I&amp;rsquo;m studying Electronics Engineering here in Venezuela.
 My goal is to become a Full-Stack Developer and to work as one. If you have heard how things currently are in Venezuela, you may know that the situation here isn&amp;rsquo;t so great, so if I have the opportunity to go to a more stable country and make a living working as a developer while helping to support my family, I&amp;rsquo;d be more than happy to do so.</description>
+    </item>
+    
+    <item>
+      <title>Resources</title>
+      <link>http://thewebdevblog.tech/html/resources/</link>
+      <pubDate>Sun, 10 Sep 2017 22:18:29 -0400</pubDate>
+      
+      <guid>http://thewebdevblog.tech/html/resources/</guid>
+      <description>List of resources I used to make this section:
+ MDN&amp;rsquo;s HTML Guide HTML Dog&amp;rsquo;s HTML Tutorial Jon Duckett&amp;rsquo;s HTML and CSS: Design and Build Websites Book Shay Howe&amp;rsquo;s Learn to Code HTML &amp;amp; CSS Book Colt Steele&amp;rsquo;s The Web Developer Bootcamp Course Jonas Schmedtmann&amp;rsquo;s Build Responsive Real World Websites with HTML5 and CSS3 Course  </description>
     </item>
     
     <item>

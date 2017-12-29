@@ -5,9 +5,10 @@ draft: false
 weight: 1
 ---
 
-HTML describes the structure of web pages and it stands for Hyper Text Markup
-Language, it is a language that computers can understand, but it isn't a
-Programming Language in itself, as its name tell us, it is a Markup Language.
+HTML stands for Hyper Text Markup Language and its job is to describe
+the structure and content of web pages.
+It is a language that computers can understand, but it isn't a
+Programming Language by itself, as its name tell us, it is a Markup Language.
 
 HTML is composed of elements which, on most cases, have two tags; an opening
 tag and a closing tag (which has an extra forward slash in it). HTML mission
@@ -17,29 +18,37 @@ is to tell the browser what do we want to display.
 
 As we just say, HTML is made of 'elements' which allow us to describe the
 contents of our website, just to name a couple of elements, we have a `<h1></h1>`
-element for our Headings and a `<p></p>` element for paragraphs.
+element for headings and a `<p></p>` element for paragraphs.
 
-Tags (usually come in pairs); an opening tag and closing tag. For example,
-to describe the days of the week as a single paragraph in HTML, we would go like
-this:
+As a simple example, naming the days of the week in a single paragraph of HTML,
+we'd simply write something like this:
 
     <p>Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday</p>
 
-Notice the two tags: <p> and </p>, the first tag (opening) doesn't have a slash
-and the last tag (closing) does have a slash.
+Notice how we enclose our content with the two tags:
+`<p>` and `</p>`, the first tag doesn't have a slash
+and the last tag does have a slash after the less than bracket.
 
-The way in which we use these tags is that we enclose our content with them,
-for example if I want to describe the first page of the Moby Dick novel,
-I would do it like this:
+If I wanted to describe something a little bit more complex, like the beginning
+of Moby Dick, I would do it like this:
+
+    <h1>Moby-Dick Chapter 1</h1>
+
+    <p>
+    Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world. It is a way I have of driving off the spleen and regulating the circulation.
+    </p>
+
+We have a heading element describing in which chapter are we located and a
+paragraph element beginning to tell the story.
 
 ### A Little Bit of History
 
 HTML was created by [Tim Berners-Lee](https://en.wikipedia.org/wiki/Tim_Berners-Lee)
-between 1989 and 1990 with the purpose of:
+between 1989 and 1990 with the purposes of:
 
-1) Having a simple standard format to publish scientific and technical documents.
+1. Having a simple standard format to publish scientific and technical documents.
 
-2) Allowing these documents to be easily shareable with the help of the
+2. Allowing these documents to be easily shareable with the help of the
 Internet.
 
 That's basically all that there is to HTML. A simple standard to write to documents
@@ -55,12 +64,12 @@ on this section and it includes all of the features we see above and more.
 
 ### Why is HTML important?
 
-HTML represents the basic structure of almost all of the Internet. To make
-a simple analogy, think of HTML as the bone structure in your body, without
+HTML represents the basic structure of almost all of the web pages in the world.
+To make a simple analogy, think of HTML as your bone structure, without
 your bones holding your body, you would be just laying on the ground all day
 without being able to do much.
 
 As Front-End/Full-Stack developers we're going to see a lot of HTML (at least
-at the beginning of our Journey) and to be honest, you could learn almost 90%
+at the beginning of our journey) and to be honest, you could learn almost 90%
 of the HTML you need to know in a couple of days. It is going to be simple,
-fun and good for your career, so why don't you keep going and go to the next page?
+fun and good for your career.

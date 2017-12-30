@@ -19,9 +19,11 @@ create a new directory called "HTML".
 4. Go inside that "HTML" directory and making use of the **touch** command
 create a new file inside of it called "index.html".
 5. You're going to use a new command right now, so pay attention. if you installed [Atom](https://atom.io) like I told you to do in the last page, enter this
-command in your terminal: <br/> `~/The_WebDev_Blog/HTML$ atom .` <br/> the "**atom .**"
+command in your terminal: <br/> `$ atom .` <br/> the "**atom .**"
 command will start Atom in your computer with your current directory as the
 "target" of the editor.
+
+Don't close your terminal because we'll be using it later ;).
 
 In Atom, at the left side of your screen, there should be the "HTML" directory
 graphically represented and the "index.html" nested inside of it, double click

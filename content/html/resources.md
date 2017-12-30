@@ -2,7 +2,7 @@
 title: "Resources"
 date: 2017-09-10T22:18:29-04:00
 draft: false
-weight: 4
+weight: 99
 ---
 
 List of resources I used to make this section:

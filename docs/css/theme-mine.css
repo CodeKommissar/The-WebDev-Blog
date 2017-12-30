@@ -104,6 +104,10 @@ div#footer {
   font-weight: bold;
 }
 
+.strikethrough {
+  text-decoration: line-through;
+}
+
 h3#chapter-0, h3#chapter-1, h3#chapter-2, h3#chapter-x {
 	text-decoration: none !important;
 }

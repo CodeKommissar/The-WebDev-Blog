@@ -13,7 +13,7 @@
 
 
     
-      <title>The Command Line | The WebDev Blog</title>
+      <title>Basic Structure | The WebDev Blog</title>
     
 
 
@@ -40,7 +40,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/the_command_line/">
+  <body class="" data-url="/html/basic_structure/">
     <nav id="sidebar" class="">
 
 
@@ -157,8 +157,8 @@
   
     
     <li data-nav-id="/the_command_line/" title="The Command Line" class="dd-item 
-        parent
-        active
+        
+        
         
         ">
       <a href="/the_command_line/">
@@ -284,7 +284,7 @@
   
     
     <li data-nav-id="/html/" title="HTML" class="dd-item 
-        
+        parent
         
         
         ">
@@ -365,7 +365,7 @@
  
   
     
-      <li data-nav-id="/html/basic_structure/" title="Basic Structure" class="dd-item ">
+      <li data-nav-id="/html/basic_structure/" title="Basic Structure" class="dd-item active">
         <a href="/html/basic_structure/">
         Basic Structure
         
@@ -507,6 +507,8 @@
                         </a>
                     </span>
                   
+                  <span id="toc-menu"><i class="fa fa-list-alt"></i></span>
+                  
                   <span class="links">
                     
           
@@ -515,7 +517,13 @@
             
           
           
-            <a href='/'></a> > The Command Line
+            
+            
+          
+          
+            <a href='/'></a> > <a href='/html/'>HTML</a> > Basic Structure
+          
+        
           
         
           
@@ -523,14 +531,36 @@
                   </span>
                 </div>
                 
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#doctype">DOCTYPE!</a></li>
+<li><a href="#html-wrap">HTML Wrap</a></li>
+<li><a href="#head-body">Head &amp; Body</a></li>
+<li><a href="#displaying-in-the-browser">Displaying in the Browser</a></li>
+<li><a href="#adding-a-title">Adding a Title</a></li>
+<li><a href="#going-worldwide">Going WorldWide</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+                
               </div>
             </div>
             
 
         
-          <div id="chapter">
-        
         <div id="body-inner">
+          
+            <h1>Basic Structure</h1>
           
 
         
@@ -538,19 +568,185 @@
 
 
 
-<h3 id="chapter-1">Chapter 1</h3>
+<p>Now that we have everything we need to write HTML, we&rsquo;ll begin
+by covering the basic structure of every (good) HTML document.</p>
 
-<h1 id="the-command-line">The Command Line</h1>
+<h3 id="doctype">DOCTYPE!</h3>
 
-<p><em>&ldquo;With great power comes great responsibility&rdquo;</em> - Uncle Ben</p>
+<p>The first line we&rsquo;re going to add to our HTML document is the <a href="https://en.wikipedia.org/wiki/Document_type_declaration">DOCTYPE</a> or
+&ldquo;Document Type Declaration&rdquo;. In the first line of your &ldquo;index.html&rdquo; file, type
+this:</p>
+
+<pre><code>&lt;!DOCTYPE html&gt;
+</code></pre>
+
+<p>This &ldquo;Document Type Declaration&rdquo; tells the browser which version of HTML
+the page is written in. As good developers that keep up with the modern times,
+we&rsquo;ll be using the latest version of HTML which would be HTML5. That line you
+see above (and that you already should have in your HTML file) tells the browser
+exactly that; &ldquo;I&rsquo;m a HTML5 file, please read me that way, thanks!&rdquo;.</p>
+
+<h3 id="html-wrap">HTML Wrap</h3>
+
+<p>Although we told the browser which version of HTML we&rsquo;re currently using,
+we haven&rsquo;t told it where does the HTML actually starts in our document.
+After the DOCTYPE, add the <code>&lt;html&gt;</code>
+element (remember that HTML elements usually are comprised of two tags):</p>
+
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+
+&lt;/html&gt;
+</code></pre>
+
+<p>Did Atom auto-complete the closing tag after you wrote the opening <code>&lt;html&gt;</code> tag?
+If Atom did it, pretty nice! That&rsquo;s the job of text editors; making our life
+easier with features like
+<span class="underline">automatic completion</span> and
+<span class="underline">syntax highlighting</span>.</p>
+
+<p>Feel free to keep that extra line of space because we&rsquo;ll be ading content
+inside of it right away.</p>
+
+<h3 id="head-body">Head &amp; Body</h3>
+
+<p>Now we&rsquo;re going to add to two elements to our HTML document: a
+<code>&lt;head&gt;</code> and a <code>&lt;body&gt;</code>. Type this into your file:</p>
+
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+
+    &lt;/head&gt;
+    &lt;body&gt;
+
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<p>To add those extra spaces (called indentation) after the tags, use your Tab key.
+Adding indentation to our code is optional, but we do it for readability. Code
+that&rsquo;s correctly indented is code that&rsquo;s easy to read and reason about.</p>
+
+<p>Now to explain a little more about these two new elements; The <code>&lt;body&gt;</code> element
+contains everything that it is going to be
+<span class="underline">displayed in the browser</span>. And on the other side, the
+<code>&lt;head&gt;</code> element is all about <span class="underline">meta-information</span>.
+What do I mean when I say &ldquo;meta-information&rdquo;? In the <code>&lt;head&gt;</code> we add info that is important
+to our page but that we don&rsquo;t necessarily want to display to the users in our website.</p>
+
+<p>I know this doesn&rsquo;t explain much right now, but you&rsquo;ll understand this
+better as we go.</p>
+
+<h3 id="displaying-in-the-browser">Displaying in the Browser</h3>
+
+<p>Now we&rsquo;ll add some text to our document and then we will display it in your
+browser. Type anything you want inside of the <code>&lt;body&gt;</code> element, I&rsquo;ll just
+write &ldquo;Hello World!&rdquo;:</p>
+
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+
+    &lt;/head&gt;
+    &lt;body&gt;
+        Hello World!
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<p>I hope that you didn&rsquo;t close your terminal because we&rsquo;re going to type one
+simple command, if you&rsquo;re using Google Chrome as your Browser, enter this
+into your command line:</p>
+
+<pre><code>$ google-chrome index.html
+</code></pre>
+
+<p>If you&rsquo;re using Mozilla Firefox, enter this:</p>
+
+<pre><code>$ firefox index.html
+</code></pre>
+
+<p>Any of those commands will automatically open your Browser (if you have it closed)
+and open the file that you indicated. You should be seeing something like this:</p>
+
+<p><img src="hello_world_html.png" alt="Screenshot of basic HTML page" /></p>
+
+<p>The file path should be different but the content should look similar (or the
+same if you also wrote into &ldquo;Hello World!&rdquo; your HTML document).</p>
+
+<h3 id="adding-a-title">Adding a Title</h3>
+
+<p>Right now the title of our page is literally &ldquo;index.html&rdquo;, let&rsquo;s fix that by
+making use of the <code>&lt;title&gt;</code> element. Let&rsquo;s add it to the <code>&lt;head&gt;</code> element:</p>
+
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;Awesome Title&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        Hello World!
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<p>Refresh your page and look at the top section of your Browser.
+Now the title of our HTML page is &ldquo;Awesome Title&rdquo;.
+<span class="strikethrough">Awesome!</span> Great!</p>
+
+<h3 id="going-worldwide">Going WorldWide</h3>
+
+<p>The last step to complete our basic structure it is going to be pretty short
+actually. Type this in the line above the <code>&lt;title&gt;</code> element&gt;:</p>
+
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;meta charset=&quot;utf-8&quot;&gt;
+        &lt;title&gt;Awesome Title&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        Hello World!
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<p>Here we&rsquo;re introducing a couple of new things. First, the <code>&lt;meta&gt;</code> element,
+which as you may notice <em>doesn&rsquo;t</em> have a closing tag, mostly because it
+doesn&rsquo;t need it. And second, we&rsquo;re seeing our first <strong>attribute</strong>; <code>charset=&quot;utf-8&quot;</code>
+inside of the <code>&lt;meta&gt;</code> element.</p>
+
+<p>Most attributes can only be used on certain elements and they tend to have
+a predetermined format. Their job is to provide extra info to their element.
+We&rsquo;re going to cover them a little bit more later, but for now I&rsquo;ll explain
+what we just add to our document.</p>
+
+<p><code>&lt;meta charset=&quot;utf-8&quot;&gt;</code> basically tells the browser the character
+codification of our website. If you want to test what happens when
+you don&rsquo;t add this meta element to your HTML documents, remove the
+<code>&lt;meta&gt;</code> element and add this line to the body of your file:</p>
+
+<pre><code>&quot;El niño esta en la biblioteca&quot;
+</code></pre>
+
+<p>Translated to English that would say &ldquo;The kid is in the library&rdquo;. As you can
+see, instead of a &ldquo;ñ&rdquo; character, you&rsquo;re going to see some weird characters.
+Now add the <code>&lt;meta&gt;</code> element again and refresh your page, it should look
+fine now.</p>
+
+<p>Not only you&rsquo;re making your site available to all the languages of the World
+by adding a single line to your HTML document, you&rsquo;re also avoiding the
+<a href="https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet#UTF-7_encoding">UTF-7 XSS Cheat Sheet</a>
+security exploit in older browsers. Basically we&rsquo;re killing two birds with one
+stone.</p>
 
 
 <footer class=" footline" >
 	
 </footer>
 
-        
-            </div> 
+
         
         </div> 
       </div>
@@ -639,138 +835,6 @@
             
         
                     
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
             
         
                     
@@ -875,6 +939,110 @@
             
                 
                     
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
                 
                 
 
@@ -925,10 +1093,10 @@
 
 
         
-            <a class="nav nav-prev" href="/the_command_line/resources/" title="Resources"> <i class="fa fa-chevron-left"></i></a>
+            <a class="nav nav-prev" href="/html/first_steps/" title="First Steps"> <i class="fa fa-chevron-left"></i></a>
         
         
-            <a class="nav nav-next" href="/the_command_line/introduction/" title="Introduction" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+            <a class="nav nav-next" href="/html/resources/" title="Resources" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
         
     </div>
 
@@ -958,3 +1126,4 @@
 
   </body>
 </html>
+

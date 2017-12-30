@@ -129,13 +129,14 @@ My goal is to become a Full-Stack Developer and to work as one. If you have hear
     </item>
     
     <item>
-      <title>Resources</title>
-      <link>http://thewebdevblog.tech/html/resources/</link>
-      <pubDate>Sun, 10 Sep 2017 22:18:29 -0400</pubDate>
+      <title>Basic Structure</title>
+      <link>http://thewebdevblog.tech/html/basic_structure/</link>
+      <pubDate>Sun, 10 Sep 2017 22:17:57 -0400</pubDate>
       
-      <guid>http://thewebdevblog.tech/html/resources/</guid>
-      <description>List of resources I used to make this section:
- MDN&amp;rsquo;s HTML Guide HTML Dog&amp;rsquo;s HTML Tutorial Jon Duckett&amp;rsquo;s HTML and CSS: Design and Build Websites Book Shay Howe&amp;rsquo;s Learn to Code HTML &amp;amp; CSS Book Colt Steele&amp;rsquo;s The Web Developer Bootcamp Course Jonas Schmedtmann&amp;rsquo;s Build Responsive Real World Websites with HTML5 and CSS3 Course  </description>
+      <guid>http://thewebdevblog.tech/html/basic_structure/</guid>
+      <description>Now that we have everything we need to write HTML, we&amp;rsquo;ll begin by covering the basic structure of every (good) HTML document.
+DOCTYPE! The first line we&amp;rsquo;re going to add to our HTML document is the DOCTYPE or &amp;ldquo;Document Type Declaration&amp;rdquo;. In the first line of your &amp;ldquo;index.html&amp;rdquo; file, type this:
+&amp;lt;!DOCTYPE html&amp;gt;  This &amp;ldquo;Document Type Declaration&amp;rdquo; tells the browser which version of HTML the page is written in.</description>
     </item>
     
     <item>
@@ -156,6 +157,16 @@ Imagine this; you are in your Wizard&amp;rsquo;s Lair, fiddling around with alch
       <guid>http://thewebdevblog.tech/the_command_line/resources/</guid>
       <description>List of resources I used to make this section:
  Codecademy&amp;rsquo;s Learn the Command Line Viking Code School&amp;rsquo;s A Command Line Crash Course Getting to Know the Command Line by David Baumgold Survival guide for Unix newbies by Matt Might Command Line Crash Course by Zed Shaw Learn Enough Command Line to Be Dangerous by Michael Hartl Rithm School Terminal and UNIX The Linux Command Line by William Shotts  </description>
+    </item>
+    
+    <item>
+      <title>Resources</title>
+      <link>http://thewebdevblog.tech/html/resources/</link>
+      <pubDate>Sun, 10 Sep 2017 22:18:29 -0400</pubDate>
+      
+      <guid>http://thewebdevblog.tech/html/resources/</guid>
+      <description>List of resources I used to make this section:
+ MDN&amp;rsquo;s HTML Guide HTML Dog&amp;rsquo;s HTML Tutorial Jon Duckett&amp;rsquo;s HTML and CSS: Design and Build Websites Book Shay Howe&amp;rsquo;s Learn to Code HTML &amp;amp; CSS Book Colt Steele&amp;rsquo;s The Web Developer Bootcamp Course Jonas Schmedtmann&amp;rsquo;s Build Responsive Real World Websites with HTML5 and CSS3 Course  </description>
     </item>
     
   </channel>

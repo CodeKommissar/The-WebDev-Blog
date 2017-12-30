@@ -73,8 +73,8 @@
   </url>
   
   <url>
-    <loc>http://thewebdevblog.tech/html/resources/</loc>
-    <lastmod>2017-09-10T22:18:29-04:00</lastmod>
+    <loc>http://thewebdevblog.tech/html/basic_structure/</loc>
+    <lastmod>2017-09-10T22:17:57-04:00</lastmod>
   </url>
   
   <url>
@@ -85,6 +85,11 @@
   <url>
     <loc>http://thewebdevblog.tech/the_command_line/resources/</loc>
     <lastmod>2017-04-21T11:53:52-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://thewebdevblog.tech/html/resources/</loc>
+    <lastmod>2017-09-10T22:18:29-04:00</lastmod>
   </url>
   
   <url>

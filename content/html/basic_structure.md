@@ -74,7 +74,7 @@ better as we go.
 
 ### Displaying in the Browser
 
-Now we'll add some text to our document and then we will display it in your
+Now we'll add some text to our document and then we will display it in the
 browser. Type anything you want inside of the `<body>` element, I'll just
 write "Hello World!":
 
@@ -89,7 +89,7 @@ write "Hello World!":
     </html>
 
 I hope that you didn't close your terminal because we're going to type one
-simple command, if you're using Google Chrome as your Browser, enter this
+simple command, if you're using Google Chrome as your browser, enter this
 into your command line:
 
     $ google-chrome index.html
@@ -98,13 +98,13 @@ If you're using Mozilla Firefox, enter this:
 
     $ firefox index.html
 
-Any of those commands will automatically open your Browser (if you have it closed)
+Any of those commands will automatically open your browser (if you have it closed)
 and open the file that you indicated. You should be seeing something like this:
 
 ![Screenshot of basic HTML page](hello_world_html.png)
 
 The file path should be different but the content should look similar (or the
-same if you also wrote into "Hello World!" your HTML document).
+same if you also wrote "Hello World!" into your HTML document).
 
 ### Adding a Title
 
@@ -121,14 +121,15 @@ making use of the `<title>` element. Let's add it to the `<head>` element:
         </body>
     </html>
 
-Refresh your page and look at the top section of your Browser.
+Refresh your page and look at the top section of your browser.
 Now the title of our HTML page is "Awesome Title".
 <span class="strikethrough">Awesome!</span> Great!
 
 ### Going WorldWide
 
 The last step to complete our basic structure it is going to be pretty short
-actually. Type this in the line above the `<title>` element>:
+actually. Type this in the line above the `<title>` element> (Remember to hit
+the Enter/Return key to add an extra line):
 
     <!DOCTYPE html>
     <html>
@@ -167,4 +168,4 @@ Not only you're making your site available to all the languages of the World
 by adding a single line to your HTML document, you're also avoiding the
 [UTF-7 XSS Cheat Sheet](https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet#UTF-7_encoding)
 security exploit in older browsers. Basically we're killing two birds with one
-stone.
+stone in our code.

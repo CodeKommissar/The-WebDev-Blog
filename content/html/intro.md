@@ -12,7 +12,7 @@ HTML stands for:
 <span class="bold">L</span>anguage and its job is to describe
 the structure and content of web pages.
 It is a language that computers can understand, but it isn't a
-Programming Language by itself, as its name tell us, it is just a Markup Language.
+Programming Language by itself. As its name tell us, it is just a Markup Language.
 
 HTML is composed of elements which, on most cases, have two tags; an opening
 tag and a closing tag (which has an extra forward slash on it). HTML mission
@@ -20,11 +20,11 @@ is to tell the browser *what* do we want to display.
 
 ### High Level Overview
 
-As we just say, HTML is made of 'elements' which allow us to describe the
-contents of our website, just to name a couple of elements, we have a `<h1></h1>`
-element for headings and a `<p></p>` element for paragraphs. Think of the
-tow separate
-tags as two pieces of bread in a sandwich, they "close over" the
+HTML is made of these 'elements' that allow us to describe the
+contents of our website. For example, we have a `<p></p>` element for paragraphs.
+As of right now, the `<p>` element is made of two *tags*; `<p>` and `</p>`.
+Think of the two separate
+tags as two pieces of bread in a sandwich; They "close over" the
 *contents* of the sandwich. In our case, HTML tags close over the *content*
  that we are representing in our website.
 
@@ -36,8 +36,13 @@ we'd simply write something like this:
     <p>Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday</p>
 
 Notice how we enclose our content with the two tags:
-`<p>` and `</p>`, the first tag doesn't have a slash
-and the last tag does have a slash after the 'Less-than sign'.
+`<p>` and `</p>`, the first tag (called opening tag) doesn't have a slash
+and the last tag (called closing tag) does have a slash after the
+'Less-than sign'. So we could define a regular paragraph in any HTML documents as:
+
+1. An opening `<p>` tag.
+2. The content of the paragraph in the middle
+3. A closing `</p>` tag.
 
 If I wanted to describe something a little bit more complex, like the beginning
 of Moby Dick, I would do it like this:
@@ -48,9 +53,9 @@ of Moby Dick, I would do it like this:
     Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world. It is a way I have of driving off the spleen and regulating the circulation.
     </p>
 
-In this short excerpt we have a heading element describing in which chapter
-are we located and a
-paragraph element that begins to tell the story.
+In this short excerpt we have a new element; `<h1>` which is used for headings
+(we're going to cover it later) that describes in which chapter
+are we located at the moment and a paragraph element that begins to tell the story.
 
 ### A Little Bit of History
 

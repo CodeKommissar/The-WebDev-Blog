@@ -17,7 +17,7 @@
       <pubDate>Sun, 10 Sep 2017 22:17:38 -0400</pubDate>
       
       <guid>http://thewebdevblog.tech/html/intro/</guid>
-      <description>HTML stands for: Hyper Text Markup Language and its job is to describe the structure and content of web pages. It is a language that computers can understand, but it isn&amp;rsquo;t a Programming Language by itself, as its name tell us, it is just a Markup Language.
+      <description>HTML stands for: Hyper Text Markup Language and its job is to describe the structure and content of web pages. It is a language that computers can understand, but it isn&amp;rsquo;t a Programming Language by itself. As its name tell us, it is just a Markup Language.
 HTML is composed of elements which, on most cases, have two tags; an opening tag and a closing tag (which has an extra forward slash on it).</description>
     </item>
     

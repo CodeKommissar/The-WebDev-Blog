@@ -35,4 +35,4 @@ the "index.html" file and your screen should look similar to this:
 You can click on the image to see it in a better resolution.
 {{% /notice %}}
 
-Now we're ready to start writing HTML!
+Now we're truly ready to start writing HTML!

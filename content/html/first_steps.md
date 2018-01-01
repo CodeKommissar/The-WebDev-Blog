@@ -23,6 +23,12 @@ command in your terminal: <br/> `$ atom .` <br/> the "**atom .**"
 command will start Atom in your computer with your current directory as the
 "target" of the editor.
 
+{{% notice warning %}}
+It is really important that the file you created in step 4
+(index.html) **does** ends with ".html". If it doesn't, the browser
+won't interpret the file correctly.
+{{% /notice %}}
+
 Don't close your terminal because we'll be using it later ;).
 
 In Atom, at the left side of your screen, there should be the "HTML" directory

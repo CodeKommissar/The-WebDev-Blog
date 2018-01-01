@@ -88,6 +88,15 @@ write "Hello World!":
         </body>
     </html>
 
+Now, it is **very important** that you save your file, to do this, in your
+keyboard press the Ctrl key and the S key at the same time. You can also go
+to the menu at the superior part of Atom, click in "File" and then click in
+"Save".
+
+Every time you change something in your page and want to see it in the browser,
+you're going to need to save your file at the text editor and refresh (F5) your
+browser.
+
 I hope that you didn't close your terminal because we're going to type one
 simple command, if you're using Google Chrome as your browser, enter this
 into your command line:

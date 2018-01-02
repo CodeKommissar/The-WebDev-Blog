@@ -72,7 +72,7 @@ to our page but that we don't necessarily want to display to the users in our we
 I know this doesn't explain much right now, but you'll understand this
 better as we go.
 
-### Displaying in the Browser
+### Displaying our Page in the Browser
 
 Now we'll add some text to our document and then we will display it in the
 browser. Type anything you want inside of the `<body>` element, I'll just

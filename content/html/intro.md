@@ -23,7 +23,7 @@ is to tell the browser *what* do we want to display.
 HTML is made of these 'elements' that allow us to describe the
 contents of our website. For example, we have a `<p></p>` element for paragraphs.
 As of right now, the `<p>` element is made of two *tags*; `<p>` and `</p>`.
-Think of the two separate
+Think of these two separate
 tags as two pieces of bread in a sandwich; They "close over" the
 *contents* of the sandwich. In our case, HTML tags close over the *content*
  that we are representing in our website.

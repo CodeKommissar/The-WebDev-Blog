@@ -93,7 +93,7 @@ We already saw the `<p>` element in the [Introduction](/html/intro), so
 this is going to be an easy challenge for you:
 
 1. Create a paragraph in the body of your HTML document, that says your name,
-your age and your favorite food.
+your age and a random fact about yourself.
 
 It should look like this (but with your own information):
 
@@ -112,7 +112,7 @@ It should look like this (but with your own information):
     </html>
 
 Done? If you displayed your info in your browser, keep reading. If not,
-do the following steps; save the file in your editor and refresh your browser.
+you already know what to do (save the file in your editor and refresh your browser).
 
 ### HTML Tags and Spacing
 

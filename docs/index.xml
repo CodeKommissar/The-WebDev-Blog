@@ -150,6 +150,17 @@ Imagine this; you are in your Wizard&amp;rsquo;s Lair, fiddling around with alch
     </item>
     
     <item>
+      <title>Adding Text</title>
+      <link>http://thewebdevblog.tech/html/text/</link>
+      <pubDate>Sun, 10 Sep 2017 22:17:57 -0400</pubDate>
+      
+      <guid>http://thewebdevblog.tech/html/text/</guid>
+      <description>Your HTML document should be looking similar to this:
+&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt; &amp;lt;title&amp;gt;Awesome Title&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; Hello World! &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;  We already added text, but that text is not semantic enough. As far as the browser knows, it is just random words floating in our body (and that should be displayed because they&amp;rsquo;re in the body).
+When I say it &amp;ldquo;is not semantic enough&amp;rdquo; what I&amp;rsquo;m trying to say is that it doesn&amp;rsquo;t have a real meaning.</description>
+    </item>
+    
+    <item>
       <title>Resources</title>
       <link>http://thewebdevblog.tech/the_command_line/resources/</link>
       <pubDate>Fri, 21 Apr 2017 11:53:52 -0400</pubDate>
@@ -157,6 +168,16 @@ Imagine this; you are in your Wizard&amp;rsquo;s Lair, fiddling around with alch
       <guid>http://thewebdevblog.tech/the_command_line/resources/</guid>
       <description>List of resources I used to make this section:
  Codecademy&amp;rsquo;s Learn the Command Line Viking Code School&amp;rsquo;s A Command Line Crash Course Getting to Know the Command Line by David Baumgold Survival guide for Unix newbies by Matt Might Command Line Crash Course by Zed Shaw Learn Enough Command Line to Be Dangerous by Michael Hartl Rithm School Terminal and UNIX The Linux Command Line by William Shotts  </description>
+    </item>
+    
+    <item>
+      <title>Inline vs Blocks</title>
+      <link>http://thewebdevblog.tech/html/inline_blocks/</link>
+      <pubDate>Sun, 10 Sep 2017 22:17:57 -0400</pubDate>
+      
+      <guid>http://thewebdevblog.tech/html/inline_blocks/</guid>
+      <description>Block-Level Elements The elements we learned about in the last page (&amp;lt;h1&amp;gt; and &amp;lt;p&amp;gt;) are block-level elements, what do I mean with this? Block-level elements are elements that use all the available width in the place at which they&amp;rsquo;re displayed in the browser, and have a top and bottom spacing (called margin).
+It is going to be easier if we visualize this. Luckily our browsers give us a set of tools to make our lives as developers easier.</description>
     </item>
     
     <item>

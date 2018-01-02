@@ -13,7 +13,7 @@
 
 
     
-      <title>Basic Structure | The WebDev Blog</title>
+      <title>Adding Text | The WebDev Blog</title>
     
 
 
@@ -40,7 +40,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/html/basic_structure/">
+  <body class="" data-url="/html/text/">
     <nav id="sidebar" class="">
 
 
@@ -365,7 +365,7 @@
  
   
     
-      <li data-nav-id="/html/basic_structure/" title="Basic Structure" class="dd-item active">
+      <li data-nav-id="/html/basic_structure/" title="Basic Structure" class="dd-item ">
         <a href="/html/basic_structure/">
         Basic Structure
         
@@ -384,7 +384,7 @@
  
   
     
-      <li data-nav-id="/html/text/" title="Adding Text" class="dd-item ">
+      <li data-nav-id="/html/text/" title="Adding Text" class="dd-item active">
         <a href="/html/text/">
         Adding Text
         
@@ -559,7 +559,7 @@
             
           
           
-            <a href='/'></a> > <a href='/html/'>HTML</a> > Basic Structure
+            <a href='/'></a> > <a href='/html/'>HTML</a> > Adding Text
           
         
           
@@ -577,12 +577,9 @@
 <ul>
 <li>
 <ul>
-<li><a href="#doctype">DOCTYPE!</a></li>
-<li><a href="#html-wrap">HTML Wrap</a></li>
-<li><a href="#head-body">Head &amp; Body</a></li>
-<li><a href="#displaying-our-page-in-the-browser">Displaying our Page in the Browser</a></li>
-<li><a href="#adding-a-title">Adding a Title</a></li>
-<li><a href="#going-worldwide">Going WorldWide</a></li>
+<li><a href="#headings">Headings</a></li>
+<li><a href="#paragraphs">Paragraphs</a></li>
+<li><a href="#html-tags-and-spacing">HTML Tags and Spacing</a></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -598,7 +595,7 @@
         
         <div id="body-inner">
           
-            <h1>Basic Structure</h1>
+            <h1>Adding Text</h1>
           
 
         
@@ -606,188 +603,145 @@
 
 
 
-<p>Now that we have everything we need to write HTML, we&rsquo;ll begin
-by covering the basic structure of every (good) HTML document.</p>
-
-<h3 id="doctype">DOCTYPE!</h3>
-
-<p>The first line we&rsquo;re going to add to our HTML document is the <a href="https://en.wikipedia.org/wiki/Document_type_declaration">DOCTYPE</a> or
-&ldquo;Document Type Declaration&rdquo;. In the first line of your &ldquo;index.html&rdquo; file, type
-this:</p>
-
-<pre><code>&lt;!DOCTYPE html&gt;
-</code></pre>
-
-<p>This &ldquo;Document Type Declaration&rdquo; tells the browser which version of HTML
-the page is written in. As good developers that keep up with the modern times,
-we&rsquo;ll be using the latest version of HTML which would be HTML5. That line you
-see above (and that you already should have in your HTML file) tells the browser
-exactly that; &ldquo;I&rsquo;m a HTML5 file, please read me that way, thanks!&rdquo;.</p>
-
-<h3 id="html-wrap">HTML Wrap</h3>
-
-<p>Although we told the browser which version of HTML we&rsquo;re currently using,
-we haven&rsquo;t told it where does the HTML actually starts in our document.
-After the DOCTYPE, add the <code>&lt;html&gt;</code>
-element (remember that HTML elements usually are comprised of two tags):</p>
+<p>Your HTML document should be looking similar to this:</p>
 
 <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
-
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;title&gt;Awesome Title&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    Hello World!
+  &lt;/body&gt;
 &lt;/html&gt;
 </code></pre>
 
-<p>Did Atom auto-complete the closing tag after you wrote the opening <code>&lt;html&gt;</code> tag?
-If Atom did it, pretty nice! That&rsquo;s the job of text editors; making our life
-easier with features like
-<span class="underline">automatic completion</span> and
-<span class="underline">syntax highlighting</span>.</p>
+<p>We already added text, but that text is not <strong>semantic</strong> enough.
+As far as the browser knows, it is just random words floating in our body (and
+that should be displayed because they&rsquo;re <em>in</em> the body).</p>
 
-<p>Feel free to keep that extra line of space because we&rsquo;ll be ading content
-inside of it right away.</p>
-
-<h3 id="head-body">Head &amp; Body</h3>
-
-<p>Now we&rsquo;re going to add to two elements to our HTML document: a
-<code>&lt;head&gt;</code> and a <code>&lt;body&gt;</code>. Type this into your file:</p>
+<p>When I say it &ldquo;is not semantic enough&rdquo; what I&rsquo;m trying to say is that
+it doesn&rsquo;t have a real meaning. Let&rsquo;s quickly solve this issue, wrap the text in your
+body with the <code>&lt;h1&gt;</code> element, like this:</p>
 
 <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
-    &lt;head&gt;
-
-    &lt;/head&gt;
-    &lt;body&gt;
-
-    &lt;/body&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;title&gt;Awesome Title&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Hello World!&lt;/h1&gt;
+  &lt;/body&gt;
 &lt;/html&gt;
 </code></pre>
 
-<p>To add those extra spaces (called indentation) after the tags, use your Tab key.
-Adding indentation to our code is optional, but we do it for readability. Code
-that&rsquo;s correctly indented is code that&rsquo;s easy to read and reason about.</p>
+<p>Save your file (Ctrl + S) and refresh your browser, you should now be seeing
+&ldquo;Hello World!&rdquo; bolded and with a bigger font size. That is a <strong>heading</strong>.</p>
 
-<p>Now to explain a little more about these two new elements; The <code>&lt;body&gt;</code> element
-contains everything that it is going to be
-<span class="underline">displayed in the browser</span>. And on the other side, the
-<code>&lt;head&gt;</code> element is all about <span class="underline">meta-information</span>.
-What do I mean when I say &ldquo;meta-information&rdquo;? In the <code>&lt;head&gt;</code> we add info that is important
-to our page but that we don&rsquo;t necessarily want to display to the users in our website.</p>
+<p>Did you notice that the words &ldquo;Hello World!&rdquo; are displayed, but the <code>&lt;h1&gt;</code>
+and <code>&lt;/h1&gt;</code> tags that surround them doesn&rsquo;t show up anywhere in the browser? That&rsquo;s
+exactly what HTML does; It takes elements in the form of code (the
+<code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code> that you wrote) and it returns
+their graphical representation to show in the browser.</p>
 
-<p>I know this doesn&rsquo;t explain much right now, but you&rsquo;ll understand this
-better as we go.</p>
+<h3 id="headings">Headings</h3>
 
-<h3 id="displaying-our-page-in-the-browser">Displaying our Page in the Browser</h3>
+<p>Headings come in six &ldquo;types&rdquo; and their job is to act as a &ldquo;title&rdquo; in your
+body; They should shortly describe what is below them.</p>
 
-<p>Now we&rsquo;ll add some text to our document and then we will display it in the
-browser. Type anything you want inside of the <code>&lt;body&gt;</code> element, I&rsquo;ll just
-write &ldquo;Hello World!&rdquo;:</p>
+<p>Here are the six available headings in action:</p>
 
 <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
-    &lt;head&gt;
-
-    &lt;/head&gt;
-    &lt;body&gt;
-        Hello World!
-    &lt;/body&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;title&gt;Headings&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Very Important Heading&lt;/h1&gt;
+    &lt;h2&gt;Important Heading&lt;/h2&gt;
+    &lt;h3&gt;Regular Heading&lt;/h3&gt;
+    &lt;h4&gt;Trivial Heading&lt;/h4&gt;
+    &lt;h5&gt;Less Important Heading&lt;/h5&gt;
+    &lt;h6&gt;&quot;Nobody cares&quot; Heading&lt;/h6&gt;
+  &lt;/body&gt;
 &lt;/html&gt;
 </code></pre>
 
-<p>Now, it is <strong>very important</strong> that you save your file, to do this, in your
-keyboard press the Ctrl key and the S key at the same time. You can also go
-to the menu at the superior part of Atom, click in &ldquo;File&rdquo; and then click in
-&ldquo;Save&rdquo;.</p>
+<p>Displayed on a browser, they should look like this:</p>
 
-<p>Every time you change something in your page and want to see it in the browser,
-you&rsquo;re going to need to save your file at the text editor and refresh (F5) your
-browser.</p>
+<p><img src="headings.png" alt="Screenshot of the six types of headings" /></p>
 
-<p>I hope that you didn&rsquo;t close your terminal because we&rsquo;re going to type one
-simple command, if you&rsquo;re using Google Chrome as your browser, enter this
-into your command line:</p>
+<p>There are a couple of basic rules regarding headings that you should know:</p>
 
-<pre><code>$ google-chrome index.html
-</code></pre>
+<p>First, there should be only a <code>&lt;h1&gt;</code> element per page. This is called the
+&ldquo;main heading&rdquo; and it tends to be reserved to display the name of the website
+at the superior
+part of the screen. The other tags can be used as many times as you desire,
+but&hellip;</p>
 
-<p>If you&rsquo;re using Mozilla Firefox, enter this:</p>
+<p>The second rule is that headings should be used in order, you shouldn&rsquo;t use
+a <code>&lt;h6&gt;</code> tag just because. If you follow the rules accordingly, you would use
+<code>&lt;h6&gt;</code> as a sub-heading of <code>&lt;h5&gt;</code>, <code>&lt;h5&gt;</code> as sub-heading of <code>&lt;h4&gt;</code> and so on.</p>
 
-<pre><code>$ firefox index.html
-</code></pre>
+<h3 id="paragraphs">Paragraphs</h3>
 
-<p>Any of those commands will automatically open your browser (if you have it closed)
-and open the file that you indicated. You should be seeing something like this:</p>
+<p>Now, to make paragraphs of text, we use the <code>&lt;p&gt;</code> element. Simple, right?</p>
 
-<p><img src="hello_world_html.png" alt="Screenshot of basic HTML page" /></p>
+<p>We already saw the <code>&lt;p&gt;</code> element in the <a href="/html/intro">Introduction</a>, so
+this is going to be an easy challenge for you:</p>
 
-<p>The file path should be different but the content should look similar (or the
-same if you also wrote &ldquo;Hello World!&rdquo; into your HTML document).</p>
+<ol>
+<li>Create a paragraph in the body of your HTML document, that says your name,
+your age and a random fact about yourself.</li>
+</ol>
 
-<h3 id="adding-a-title">Adding a Title</h3>
-
-<p>Right now the title of our page is literally &ldquo;index.html&rdquo;, let&rsquo;s fix that by
-making use of the <code>&lt;title&gt;</code> element. Let&rsquo;s add it to the <code>&lt;head&gt;</code> element:</p>
+<p>It should look like this (but with your own information):</p>
 
 <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
-    &lt;head&gt;
-        &lt;title&gt;Awesome Title&lt;/title&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        Hello World!
-    &lt;/body&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;title&gt;Awesome Title&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Hello World!&lt;/h1&gt;
+    &lt;p&gt;
+      My name is Luis Rodriguez, I'm 20 years old and my favorite food is pizza.
+    &lt;/p&gt;
+  &lt;/body&gt;
 &lt;/html&gt;
 </code></pre>
 
-<p>Refresh your page and look at the top section of your browser.
-Now the title of our HTML page is &ldquo;Awesome Title&rdquo;.
-<span class="strikethrough">Awesome!</span> Great!</p>
+<p>Done? If you displayed your info in your browser, keep reading. If not,
+you already know what to do (save the file in your editor and refresh your browser).</p>
 
-<h3 id="going-worldwide">Going WorldWide</h3>
+<h3 id="html-tags-and-spacing">HTML Tags and Spacing</h3>
 
-<p>The last step to complete our basic structure it is going to be pretty short
-actually. Type this in the line above the <code>&lt;title&gt;</code> element&gt; (Remember to hit
-the Enter/Return key to add an extra line):</p>
+<p>See the positioning of these two elements:</p>
 
-<pre><code>&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-    &lt;head&gt;
-        &lt;meta charset=&quot;utf-8&quot;&gt;
-        &lt;title&gt;Awesome Title&lt;/title&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        Hello World!
-    &lt;/body&gt;
-&lt;/html&gt;
+<pre><code>&lt;h1&gt;Hello World!&lt;/h1&gt;
 </code></pre>
 
-<p>Here we&rsquo;re introducing a couple of new things. First, the <code>&lt;meta&gt;</code> element,
-which as you may notice <em>doesn&rsquo;t</em> have a closing tag, mostly because it
-doesn&rsquo;t need it. And second, we&rsquo;re seeing our first <strong>attribute</strong>; <code>charset=&quot;utf-8&quot;</code>
-inside of the <code>&lt;meta&gt;</code> element.</p>
+<p>And:</p>
 
-<p>Most attributes can only be used on certain elements and they tend to have
-a predetermined format. Their job is to provide extra info to their element.
-We&rsquo;re going to cover them a little bit more later, but for now I&rsquo;ll explain
-what we just add to our document.</p>
-
-<p><code>&lt;meta charset=&quot;utf-8&quot;&gt;</code> basically tells the browser the character
-codification of our website. If you want to test what happens when
-you don&rsquo;t add this meta element to your HTML documents, remove the
-<code>&lt;meta&gt;</code> element and add this line to the body of your file:</p>
-
-<pre><code>&quot;El niño esta en la biblioteca&quot;
+<pre><code>&lt;p&gt;
+  My name is Luis Rodriguez, I'm 20 years old and my favorite food is pizza.
+&lt;/p&gt;
 </code></pre>
 
-<p>Translated to English that would say &ldquo;The kid is in the library&rdquo;. As you can
-see, instead of a &ldquo;ñ&rdquo; character, you&rsquo;re going to see some weird characters.
-Now add the <code>&lt;meta&gt;</code> element again and refresh your page, it should look
-fine now.</p>
+<p>As you may notice, the <code>&lt;h1&gt;</code> element has the tags in the same line, and the
+<code>&lt;p&gt;</code> element has the tags and the content in separate lines.</p>
 
-<p>Not only you&rsquo;re making your site available to all the languages of the World
-by adding a single line to your HTML document, you&rsquo;re also avoiding the
-<a href="https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet#UTF-7_encoding">UTF-7 XSS Cheat Sheet</a>
-security exploit in older browsers. Basically we&rsquo;re killing two birds with one
-stone in our code.</p>
+<p>As far as the browser cares, these two positioning/spacing options are the same,
+it will display the content the same if the tags are in the same line or in
+separate lines.</p>
+
+<p>Because it is an stylistic choice, go with the option that you find easier to
+read. Mix and match to find your own balance and strive for good readability
+in your HTML documents.</p>
 
 
 <footer class=" footline" >
@@ -1052,6 +1006,22 @@ stone in our code.</p>
             
                 
                     
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
                     
                 
                 
@@ -1099,22 +1069,6 @@ stone in our code.</p>
             
         
                     
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
             
         
                     
@@ -1173,10 +1127,10 @@ stone in our code.</p>
 
 
         
-            <a class="nav nav-prev" href="/html/first_steps/" title="First Steps"> <i class="fa fa-chevron-left"></i></a>
+            <a class="nav nav-prev" href="/html/basic_structure/" title="Basic Structure"> <i class="fa fa-chevron-left"></i></a>
         
         
-            <a class="nav nav-next" href="/html/text/" title="Adding Text" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+            <a class="nav nav-next" href="/html/inline_blocks/" title="Inline vs Blocks" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
         
     </div>
 

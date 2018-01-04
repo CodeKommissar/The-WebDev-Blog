@@ -18,12 +18,12 @@ Your HTML document should be looking similar to this:
       </body>
     </html>
 
-We already added text, but that text is not **semantic** enough.
-As far as the browser knows, it is just random words floating in our body (and
-that should be displayed because they're *in* the body).
+We've already added text, but that text is not **semantic** enough.
+As far as the browser knows, this text are just random words floating in
+the body of our page.
 
 When I say it "is not semantic enough" what I'm trying to say is that
-it doesn't have a real meaning. Let's quickly solve this issue, wrap the text in your
+it doesn't have a real meaning. Let's quickly solve this issue. Wrap the text in your
 body with the `<h1>` element, like this:
 
     <!DOCTYPE html>
@@ -37,19 +37,24 @@ body with the `<h1>` element, like this:
       </body>
     </html>
 
-Save your file (Ctrl + S) and refresh your browser, you should now be seeing
-"Hello World!" bolded and with a bigger font size. That is a **heading**.
+Done, we solve the problem! Now our text is semantic enough for our HTML document.
+`<h1>` is the element for a "*level 1 heading*" and that is what "Hello World!" just became: The
+main heading of our page.
 
-Did you notice that the words "Hello World!" are displayed, but the `<h1>`
+Save your file (Ctrl + S) and refresh your browser, you should now be seeing
+your text **bold** and with a <span id="bigger">bigger font size</span>.
+
+Did you notice that the content inside of the element ("Hello World!" in my case)
+is displayed, but the `<h1>`
 and `</h1>` tags that surround them doesn't show up anywhere in the browser? That's
-exactly what HTML does; It takes elements in the form of code (the
-`<h1>Hello World!</h1>` that you wrote) and it returns
-their graphical representation to show in the browser.
+exactly what the browser does with HTML; It takes elements in the form of code
+(`<h1>Hello World!</h1>`) and it returns
+their graphical representation to display it.
 
 ### Headings
 
-Headings come in six "types" and their job is to act as a "title" in your
-body; They should shortly describe what is below them.
+Headings come in six "levels" and their job is to kind of act as "titles"
+inside the body of your page.
 
 Here are the six available headings in action:
 
@@ -82,8 +87,10 @@ part of the screen. The other tags can be used as many times as you desire,
 but...
 
 The second rule is that headings should be used in order, you shouldn't use
-a `<h6>` tag just because. If you follow the rules accordingly, you would use
-`<h6>` as a sub-heading of `<h5>`, `<h5>` as sub-heading of `<h4>` and so on.
+a `<h6>` element just because it looks cool.
+If you follow the rules accordingly, you would use
+`<h6>` as a sub-heading of `<h5>`, `<h5>` as sub-heading of `<h4>`,
+`<h4>` as sub-heading of `<h3>` and so on...
 
 ### Paragraphs
 
@@ -111,7 +118,7 @@ It should look like this (but with your own information):
       </body>
     </html>
 
-Done? If you displayed your info in your browser, keep reading. If not,
+Done? If you have your info displayed on your browser, keep reading. If not,
 you already know what to do (save the file in your editor and refresh your browser).
 
 ### HTML Tags and Spacing
@@ -127,12 +134,37 @@ And:
     </p>
 
 As you may notice, the `<h1>` element has the tags in the same line, and the
-`<p>` element has the tags and the content in separate lines.
+`<p>` element has the tags and the content on separate lines.
 
 As far as the browser cares, these two positioning/spacing options are the same,
-it will display the content the same if the tags are in the same line or in
+it will display the content identically if the tags are in the same line or in
 separate lines.
+
+    <!-- For the Browser -->
+
+    <h1>
+      Hello World!
+    </h1>
+
+    <!-- Is the same to: -->
+
+    <h1>Hello World!</h1>
 
 Because it is an stylistic choice, go with the option that you find easier to
 read. Mix and match to find your own balance and strive for good readability
 in your HTML documents.
+
+{{% notice note %}}
+The little blobs of gray text in the snippet of code above are called "comments".
+Every computer language has comments and the cool thing about them is that they
+don't affect the result of our code. If you add comments in your HTML,
+the text inside of them **won't** be displayed in the browser.
+<br>
+<br>
+The format of comments in HTML is: `<!-- Your comment here -->`
+<br>
+<br>
+By adding comments, we can be more expressive
+about what we are trying to do (or explain, in this case) to ourselves
+in the future or to other people trying to understand our code.
+{{% /notice %}}

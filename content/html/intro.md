@@ -18,45 +18,6 @@ HTML is composed of elements which, on most cases, have two tags; an opening
 tag and a closing tag (which has an extra forward slash on it). HTML mission
 is to tell the browser *what* do we want to display.
 
-### High Level Overview
-
-HTML is made of these 'elements' that allow us to describe the
-contents of our website. For example, we have a `<p></p>` element for paragraphs.
-As of right now, the `<p>` element is made of two *tags*; `<p>` and `</p>`.
-Think of these two separate
-tags as two pieces of bread in a sandwich; They "close over" the
-*contents* of the sandwich. In our case, HTML tags close over the *content*
- that we are representing in our website.
-
-![A photo of a sandwich](sandwich.jpg?width=60%)
-
-As a simple example, to name the days of the week in a single paragraph of HTML,
-we'd simply write something like this:
-
-    <p>Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday</p>
-
-Notice how we enclose our content with the two tags:
-`<p>` and `</p>`, the first tag (called opening tag) doesn't have a slash
-and the last tag (called closing tag) does have a slash after the
-'Less-than sign'. So we could define a regular paragraph in any HTML documents as:
-
-1. An opening `<p>` tag.
-2. The content of the paragraph in the middle
-3. A closing `</p>` tag.
-
-If I wanted to describe something a little bit more complex, like the beginning
-of Moby Dick, I would do it like this:
-
-    <h1>Moby-Dick Chapter 1</h1>
-
-    <p>
-    Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world. It is a way I have of driving off the spleen and regulating the circulation.
-    </p>
-
-In this short excerpt we have a new element; `<h1>` which is used for headings
-(we're going to cover it later) that describes in which chapter
-are we located at the moment and a paragraph element that begins to tell the story.
-
 ### A Little Bit of History
 
 ![A photo of a Tim Berners-Lee](tim.jpg?width=60%)
@@ -80,12 +41,53 @@ like; New Tags, Images, Sound, Video and even GeoLocation.
 The current version of HTML is HTML5, which is what we are going to be learning
 on this section and it includes all of the features we see above and more.
 
+### High Level Overview
+
+HTML is made of these 'elements' that allow us to describe the
+contents of our website. For example, we have a `<p></p>` element for paragraphs.
+As of right now, this `<p>` element is made out of two *tags*; `<p>` and `</p>`.
+Think of these two separate
+tags as two pieces of bread in a sandwich; They "close over" the
+*contents* of said sandwich. In our case, HTML tags "close over" the *content*
+that we are trying to represent on our website.
+
+![A photo of a sandwich](sandwich.jpg?width=60%)
+
+As a simple example, to name the days of the week in a single paragraph of HTML,
+we'd simply write something like this:
+
+    <p>Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday</p>
+
+Notice how we enclose our content with the two tags:
+`<p>` and `</p>`, the first tag (called opening tag) doesn't have a slash
+and the last tag (called closing tag) does have a slash after the
+'Less-than sign'.
+
+We could define a regular paragraph in any HTML documents as:
+
+1. An opening `<p>` tag.
+2. The content of the paragraph in the middle
+3. A closing `</p>` tag.
+
+If I wanted to describe something a little bit more complex, like the beginning
+of Moby Dick, I would do it like this:
+
+    <h1>Moby-Dick Chapter 1</h1>
+
+    <p>
+    Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world. It is a way I have of driving off the spleen and regulating the circulation.
+    </p>
+
+In this short excerpt we have a new element; `<h1>` which is used for headings
+(we're going to cover it later) that describes in which chapter
+are we located at the moment and a paragraph element that begins to tell the story.
+
 ### Why is HTML important?
 
 HTML represents the basic structure of almost all of the web pages in the world.
-To make a simple analogy, think of HTML as your bone structure, without
-your bones holding your body, you would be just laying on the ground all day
-without being able to do much.
+To make a simple analogy, think of HTML as your bone structure. Without
+your bones holding your body, you'd be just a puddle of skin and
+guts on the floor...
 
 As Front-End/Full-Stack developers we're going to see a lot of HTML (at least
 at the beginning of our journey) and to be honest, you could learn almost 90%

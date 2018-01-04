@@ -12,7 +12,7 @@ and a **Text Editor**.
 ### Web Browser
 
 If you are reading this, I'm 99% sure that you are using a
-web browser right now. For this tutorial a modern version of [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/) or [Google Chrome](https://www.google.com/chrome/index.html) should be more than fine to
+web browser right now. For this tutorial, a modern version of [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/) or [Google Chrome](https://www.google.com/chrome/index.html) should be more than fine to
 develop our web pages.
 
 If you already have one of those browsers installed on your computer, keep reading.

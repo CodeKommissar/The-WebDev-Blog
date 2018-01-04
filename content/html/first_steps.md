@@ -9,11 +9,12 @@ You still remember how to use [The Command Line](/the_command_line), right?
 
 If you're new to this blog and don't know how to use the terminal,
 or if you already forgot the basic commands, give that section a quick
-review and come back. Why? Because you will be doing your first assignment
-right now:
+review and come back.
+
+Why? Because you'll be doing your first assignment right now:
 
 1. Open your terminal, you should be in your *home* directory.
-2. Enter inside your "The_WebDev_Blog" directory using the **cd** command.
+2. U  sing the **cd** command, go inside your "The_WebDev_Blog" directory.
 3. Inside of the "The_WebDev_Blog" directory, using the **mkdir** command,
 create a new directory called "HTML".
 4. Go inside that "HTML" directory and making use of the **touch** command
@@ -33,7 +34,9 @@ Don't close your terminal because we'll be using it later ;).
 
 In Atom, at the left side of your screen, there should be the "HTML" directory
 graphically represented and the "index.html" nested inside of it, double click
-the "index.html" file and your screen should look similar to this:
+the "index.html" file.
+
+Your screen should look similar to this:
 
 ![Screenshot of Atom Editor](html_editor.png)
 

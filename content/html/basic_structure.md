@@ -66,10 +66,10 @@ Now to explain a little more about these two new elements; The `<body>` element
 contains everything that it is going to be
 <span class="underline">displayed in the browser</span>. And on the other side, the
 `<head>` element is all about <span class="underline">meta-information</span>.
+
 What do I mean when I say "meta-information"? In the `<head>` we add info that is important
 to our page but that we don't necessarily want to display to the users in our website.
-
-I know this doesn't explain much right now, but you'll understand this
+I know this doesn't explain much right now, but you'll understand
 better as we go.
 
 ### Displaying our Page in the Browser
@@ -93,12 +93,10 @@ keyboard press the Ctrl key and the S key at the same time. You can also go
 to the menu at the superior part of Atom, click in "File" and then click in
 "Save".
 
-Every time you change something in your page and want to see it in the browser,
-you're going to need to save your file at the text editor and refresh (F5) your
-browser.
-
 I hope that you didn't close your terminal because we're going to type one
-simple command, if you're using Google Chrome as your browser, enter this
+simple command.
+
+If you're using Google Chrome as your browser, enter this
 into your command line:
 
     $ google-chrome index.html
@@ -114,6 +112,15 @@ and open the file that you indicated. You should be seeing something like this:
 
 The file path should be different but the content should look similar (or the
 same if you also wrote "Hello World!" into your HTML document).
+
+Every time you change something in your page and want to see it in the browser,
+you're going to need to repeat these two steps:
+
+1. Save <span class="underline">(Ctrl + S)</span> your file at the text editor.
+2. Refresh <span class="underline">(F5)</span> your browser.
+
+Make a simple change to your page in Atom and follow the steps above to make
+sure you really know them.
 
 ### Adding a Title
 
@@ -137,8 +144,7 @@ Now the title of our HTML page is "Awesome Title".
 ### Going WorldWide
 
 The last step to complete our basic structure it is going to be pretty short
-actually. Type this in the line above the `<title>` element> (Remember to hit
-the Enter/Return key to add an extra line):
+actually. Type this in the line above the `<title>` element:
 
     <!DOCTYPE html>
     <html>
@@ -151,10 +157,11 @@ the Enter/Return key to add an extra line):
         </body>
     </html>
 
-Here we're introducing a couple of new things. First, the `<meta>` element,
-which as you may notice *doesn't* have a closing tag, mostly because it
-doesn't need it. And second, we're seeing our first **attribute**; `charset="utf-8"`
-inside of the `<meta>` element.
+Here we're introducing a couple of new things:
+
+First, the `<meta>` element, which as you may notice <span class="underline">doesn't</span> have a closing tag. Because this element doesn't have content inside of it, it doesn't need a `</meta>` tag closing it.
+
+And second, we're seeing our first **attribute**; `charset="utf-8"` inside of the `<meta>` element.
 
 Most attributes can only be used on certain elements and they tend to have
 a predetermined format. Their job is to provide extra info to their element.
@@ -170,7 +177,7 @@ you don't add this meta element to your HTML documents, remove the
 
 Translated to English that would say "The kid is in the library". As you can
 see, instead of a "ñ" character, you're going to see some weird characters.
-Now add the `<meta>` element again and refresh your page, it should look
+Now add the `<meta>` element again and refresh your page. The text should look
 fine now.
 
 Not only you're making your site available to all the languages of the World

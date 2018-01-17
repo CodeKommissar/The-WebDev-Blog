@@ -14,7 +14,7 @@ review and come back.
 Why? Because you'll be doing your first assignment right now:
 
 1. Open your terminal, you should be in your *home* directory.
-2. U  sing the **cd** command, go inside your "The_WebDev_Blog" directory.
+2. Using the **cd** command, go inside your "The_WebDev_Blog" directory.
 3. Inside of the "The_WebDev_Blog" directory, using the **mkdir** command,
 create a new directory called "HTML".
 4. Go inside that "HTML" directory and making use of the **touch** command

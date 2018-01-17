@@ -88,7 +88,7 @@ write "Hello World!":
         </body>
     </html>
 
-Now, it is **very important** that you save your file, to do this, in your
+Now, it is **very important** that you save your file. To do this, in your
 keyboard press the Ctrl key and the S key at the same time. You can also go
 to the menu at the superior part of Atom, click in "File" and then click in
 "Save".

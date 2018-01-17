@@ -37,7 +37,7 @@ body with the `<h1>` element, like this:
       </body>
     </html>
 
-Done, we solve the problem! Now our text is semantic enough for our HTML document.
+Done, we've solved the problem! Now our text is semantic enough for our HTML document.
 `<h1>` is the element for a "*level 1 heading*" and that is what "Hello World!" just became: The
 main heading of our page.
 
@@ -48,8 +48,8 @@ Did you notice that the content inside of the element ("Hello World!" in my case
 is displayed, but the `<h1>`
 and `</h1>` tags that surround them doesn't show up anywhere in the browser? That's
 exactly what the browser does with HTML; It takes elements in the form of code
-(`<h1>Hello World!</h1>`) and it returns
-their graphical representation to display it.
+(`<h1>Hello World!</h1>`) and returns
+their graphical representations in the browser.
 
 ### Headings
 
@@ -136,8 +136,8 @@ And:
 As you may notice, the `<h1>` element has the tags in the same line, and the
 `<p>` element has the tags and the content on separate lines.
 
-As far as the browser cares, these two positioning/spacing options are the same,
-it will display the content identically if the tags are in the same line or in
+As far as the browser cares, these two positioning/spacing options are the same.
+It will display the content identically if the tags are in the same line or in
 separate lines.
 
     <!-- For the Browser -->
@@ -166,5 +166,5 @@ The format of comments in HTML is: `<!-- Your comment here -->`
 <br>
 By adding comments, we can be more expressive
 about what we are trying to do (or explain, in this case) to ourselves
-in the future or to other people trying to understand our code.
+in the future or to other people reading our code.
 {{% /notice %}}

@@ -84,7 +84,7 @@ by the content it has inside.<span>
 
 Pretty much, those are the differences between block-level elements and
 inline-level elements. Block-level elements have top and bottom spacing and
-have a width of 100% of the page while inline-level elements doesn't have
+have a width of 100% on the page while inline-level elements don't have
 those top and bottom spacings and its width is dependent on the content inside
 of them.
 

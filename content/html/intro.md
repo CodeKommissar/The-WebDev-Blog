@@ -10,13 +10,8 @@ HTML stands for:
 <span class="bold">T</span>ext
 <span class="bold">M</span>arkup
 <span class="bold">L</span>anguage and its job is to describe
-the structure and content of web pages.
-It is a language that computers can understand, but it isn't a
-Programming Language by itself. As its name tell us, it is just a Markup Language.
-
-HTML is composed of elements which, on most cases, have two tags; an opening
-tag and a closing tag (which has an extra forward slash on it). HTML mission
-is to tell the browser *what* do we want to display.
+the structure and content of web pages. HTML is composed of elements that
+describe *what* do we want to display in the browser.
 
 ### A Little Bit of History
 
@@ -30,7 +25,7 @@ between 1989 and 1990 with the purposes of:
 2. Allowing these documents to be easily shareable with the help of the
 Internet.
 
-That's basically all that there is to HTML. A simple standard to write documents
+That's basically all that there is to HTML; A simple standard to write documents
 that anyone could read and share through the Internet.
 
 This first version of HTML was all about text and links. As time went through,
@@ -43,13 +38,13 @@ on this section and it includes all of the features we see above and more.
 
 ### High Level Overview
 
-HTML is made of these 'elements' that allow us to describe the
+HTML is made of 'elements' that allow us to describe the
 contents of our website. For example, we have a `<p></p>` element for paragraphs.
 As of right now, this `<p>` element is made out of two *tags*; `<p>` and `</p>`.
 Think of these two separate
 tags as two pieces of bread in a sandwich; They "close over" the
 *contents* of said sandwich. In our case, HTML tags "close over" the *content*
-that we are trying to represent on our website.
+that we are trying to represent in our website.
 
 ![A photo of a sandwich](sandwich.jpg?width=60%)
 
@@ -59,7 +54,7 @@ we'd simply write something like this:
     <p>Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday</p>
 
 Notice how we enclose our content with the two tags:
-`<p>` and `</p>`, the first tag (called opening tag) doesn't have a slash
+`<p>` and `</p>`. The first tag (called opening tag) doesn't have a slash
 and the last tag (called closing tag) does have a slash after the
 'Less-than sign'.
 
@@ -78,16 +73,16 @@ of Moby Dick, I would do it like this:
     Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world. It is a way I have of driving off the spleen and regulating the circulation...
     </p>
 
-In this short excerpt we have a new element; `<h1>` which is used for headings
-(we're going to cover it later) that describes in which chapter
-are we located at the moment and a paragraph element that begins to tell the story.
+In this short excerpt we see a new element; `<h1>` (used for headings)
+that describes in which chapter
+are we located at the moment, and a paragraph element that begins to tell the story.
 
 ### Why is HTML important?
 
 HTML represents the basic structure of almost all of the web pages in the world.
 To make a simple analogy, think of HTML as your bone structure. Without
 your bones holding your body, you'd be just a puddle of skin and
-guts on the floor...
+guts on the floor :(
 
 As Front-End/Full-Stack developers we're going to see a lot of HTML (at least
 at the beginning of our journey) and to be honest, you could learn almost 90%

@@ -10,7 +10,7 @@ by covering the basic structure of every (good) HTML document.
 
 ### DOCTYPE!
 
-The first line we're going to add to our HTML document is the [DOCTYPE](https://en.wikipedia.org/wiki/Document_type_declaration) or
+The first thing we're going to add to our HTML document is the [DOCTYPE](https://en.wikipedia.org/wiki/Document_type_declaration) or
 "Document Type Declaration". In the first line of your "index.html" file, type
 this:
 
@@ -45,7 +45,7 @@ inside of it right away.
 
 ### Head & Body
 
-Now we're going to add to two elements to our HTML document: a
+Now we're going to add two elements to our HTML document: a
 `<head>` and a `<body>`. Type this into your file:
 
     <!DOCTYPE html>
@@ -60,7 +60,7 @@ Now we're going to add to two elements to our HTML document: a
 
 To add those extra spaces (called indentation) after the tags, use your Tab key.
 Adding indentation to our code is optional, but we do it for readability. Code
-that's correctly indented is code that's easy to read and reason about.
+that's correctly indented is code that's easier to read and reason about.
 
 Now to explain a little more about these two new elements; The `<body>` element
 contains everything that it is going to be
@@ -110,7 +110,8 @@ and open the file that you indicated. You should be seeing something like this:
 
 ![Screenshot of basic HTML page](hello_world_html.png)
 
-The file path should be different but the content should look similar (or the
+The file path should be different but the content displayed in the browser
+should look similar (or the
 same if you also wrote "Hello World!" into your HTML document).
 
 Every time you change something in your page and want to see it in the browser,
@@ -143,8 +144,8 @@ Now the title of our HTML page is "Awesome Title".
 
 ### Going WorldWide
 
-The last step to complete our basic structure it is going to be pretty short
-actually. Type this in the line above the `<title>` element:
+The last step to complete our basic HTML structure it is going to be pretty
+short. Type this in the line above the `<title>` element:
 
     <!DOCTYPE html>
     <html>
@@ -180,7 +181,7 @@ see, instead of a "ñ" character, you're going to see some weird characters.
 Now add the `<meta>` element again and refresh your page. The text should look
 fine now.
 
-Not only you're making your site available to all the languages of the World
+Not only you're making your site available to all the languages in the World
 by adding a single line to your HTML document, you're also avoiding the
 [UTF-7 XSS Cheat Sheet](https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet#UTF-7_encoding)
 security exploit in older browsers. Basically we're killing two birds with one

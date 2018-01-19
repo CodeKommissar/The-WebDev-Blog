@@ -32,9 +32,9 @@ won't interpret the file correctly.
 
 Don't close your terminal because we'll be using it later ;).
 
-In Atom, at the left side of your screen, there should be the "HTML" directory
-graphically represented and the "index.html" nested inside of it, double click
-the "index.html" file.
+In Atom, at the left side of your screen, you should see the "HTML" directory
+graphically represented with a folder on the left, and the "index.html" file
+nested inside of it. Double click the "index.html" file.
 
 Your screen should look similar to this:
 

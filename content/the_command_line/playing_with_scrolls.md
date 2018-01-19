@@ -199,7 +199,7 @@ In this case the "-r" flag stands for *recursive* which means that it is going t
 
 ### Quiz
 
-Solve the quiz that correspond this page and then move into the exercises.
+Solve the quiz that correspond to this page and then move into the exercises.
 
 {{% button href="http://lrodriguez.me/The_WebDev_Blog_Quizzes/The_Command_Line/Quiz_Number_2/index.html" icon="fa fa-share" icon-position="right" %}}Go to Quiz{{% /button %}}
 

@@ -201,7 +201,7 @@ Using the "cd" command along with the "ls" command is a very common pattern that
 
 ### Quiz
 
-Solve the quiz that correspond this page and then move into the exercises.
+Solve the quiz that correspond to this page and then move into the exercises.
 
 {{% button href="http://lrodriguez.me/The_WebDev_Blog_Quizzes/The_Command_Line/Quiz_Number_1/index.html" icon="fa fa-share" icon-position="right" %}}Go to Quiz{{% /button %}}
 

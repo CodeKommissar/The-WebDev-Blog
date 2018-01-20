@@ -186,3 +186,11 @@ by adding a single line to your HTML document, you're also avoiding the
 [UTF-7 XSS Cheat Sheet](https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet#UTF-7_encoding)
 security exploit in older browsers. Basically we're killing two birds with one
 stone in our code.
+
+---
+
+### Quiz
+
+Solve the quiz that correspond to this page and then go to the next page.
+
+{{% button href="http://lrodriguez.me/The_WebDev_Blog_Quizzes/HTML/Quiz_Number_1/index.html" icon="fa fa-share" icon-position="right" %}}Go to Quiz{{% /button %}}

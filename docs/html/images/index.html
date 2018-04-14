@@ -13,7 +13,7 @@
 
 
     
-      <title>Extras | The WebDev Blog</title>
+      <title>Images | The WebDev Blog</title>
     
 
 
@@ -40,7 +40,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/extras/">
+  <body class="" data-url="/html/images/">
     <nav id="sidebar" class="">
 
 
@@ -284,7 +284,7 @@
   
     
     <li data-nav-id="/html/" title="HTML" class="dd-item 
-        
+        parent
         
         
         ">
@@ -422,7 +422,7 @@
  
   
     
-      <li data-nav-id="/html/images/" title="Images" class="dd-item ">
+      <li data-nav-id="/html/images/" title="Images" class="dd-item active">
         <a href="/html/images/">
         Images
         
@@ -468,8 +468,8 @@
   
     
     <li data-nav-id="/extras/" title="Extras" class="dd-item 
-        parent
-        active
+        
+        
         
         ">
       <a href="/extras/">
@@ -564,6 +564,8 @@
                         </a>
                     </span>
                   
+                  <span id="toc-menu"><i class="fa fa-list-alt"></i></span>
+                  
                   <span class="links">
                     
           
@@ -572,7 +574,13 @@
             
           
           
-            <a href='/'></a> > Extras
+            
+            
+          
+          
+            <a href='/'></a> > <a href='/html/'>HTML</a> > Images
+          
+        
           
         
           
@@ -580,14 +588,33 @@
                   </span>
                 </div>
                 
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#images-in-action">Images in Action</a></li>
+<li><a href="#local-images">Local Images</a></li>
+<li><a href="#exercises">Exercises</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+                
               </div>
             </div>
             
 
         
-          <div id="chapter">
-        
         <div id="body-inner">
+          
+            <h1>Images</h1>
           
 
         
@@ -595,19 +622,178 @@
 
 
 
-<h3 id="chapter-x">Chapter X</h3>
+<p>To add images to our document we use the <code>&lt;img&gt;</code> element.
+The basic pattern to use this element for adding images
+to our webpage is this:</p>
 
-<h1 id="extras">Extras</h1>
+<pre><code>&lt;img src=&quot;image.png&quot; alt=&quot;A brief description of the image&quot;&gt;
+</code></pre>
 
-<p>Think of this section as the &ldquo;DLCs&rdquo; of the blog</p>
+<p>As we can see, the <code>&lt;img&gt;</code> element is comprised of a single tag and a couple
+of attributes. Remember that the mission of attributes is to provide additional
+information to their element.</p>
+
+<p>In this case, the <code>&lt;img&gt;</code> <span class="underline"><em>needs</em></span> a <strong>src</strong> (short for &ldquo;source&rdquo;)
+attribute that tells the element where the image is located at, and
+it <span class="underline"><em>should</em></span> have an  <strong>alt</strong> (short for &ldquo;alternative text&rdquo;) attribute
+which has a couple of functions to it:</p>
+
+<ol>
+<li>First, the alt attribute will describe what the image is about to visually-impaired visitors that
+are browsing our page with the help of a
+<a href="https://en.wikipedia.org/wiki/Screen_reader">screen reader</a>.</li>
+<li>And second, if the image isn&rsquo;t correctly loaded to our page, the alternative text will be displayed instead of the image.</li>
+</ol>
+
+<h3 id="images-in-action">Images in Action</h3>
+
+<p>Let&rsquo;s follow the pattern above and add an image to our page:</p>
+
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;title&gt;Awesome Title&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Hello World!&lt;/h1&gt;
+    &lt;p&gt;
+      My name is &lt;strong&gt;Luis Rodriguez&lt;/strong&gt;, I'm 20 years old and
+      &lt;em&gt;my favorite food is pizza&lt;/em&gt;.
+    &lt;/p&gt;
+    &lt;img src=&quot;pizza.png&quot; alt=&quot;Picture of a pizza&quot;&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<div class="notices note" ><p>We&rsquo;ll be playing with the image of a pizza in the following examples. But in the
+exercises section you&rsquo;ll be adding an image of your own preference :).</p>
+</div>
+
+
+<p>After saving my file and refreshing the browser:</p>
+
+<p><img src="alt_text_image.png" alt="Screenshot of a broken image in HTML" /></p>
+
+<p>The result was pretty disappointing&hellip; But
+at least we got to see the <strong>alt</strong> attribute in action!</p>
+
+<p>What is the problem with our image? It is pretty simple, I broke the image element
+by putting erroneous info at the <strong>src</strong> attribute; by writing &ldquo;pizza.jpg&rdquo;, I&rsquo;m making
+reference to a image that doesn&rsquo;t exist. Let&rsquo;s solve this issue
+by fixing the information I provided to the element:</p>
+
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;title&gt;Awesome Title&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Hello World!&lt;/h1&gt;
+    &lt;p&gt;
+      My name is &lt;strong&gt;Luis Rodriguez&lt;/strong&gt;, I'm 20 years old and
+      &lt;em&gt;my favorite food is pizza&lt;/em&gt;.
+    &lt;/p&gt;
+    &lt;img
+      src=&quot;https://upload.wikimedia.org/wikipedia/commons/d/d3/Supreme_pizza.jpg&quot;
+      alt=&quot;Picture of a pizza&quot;
+      width=&quot;500px&quot;
+    &gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<p>Correctly sourcing to an existing image, give me this as a result:</p>
+
+<p><img src="image_example.png" alt="Screenshot of a correctly loaded image" /></p>
+
+<p>Let&rsquo;s examine a little bit more closer the code for the <code>&lt;img&gt;</code> element.</p>
+
+<pre><code>&lt;img
+  src=&quot;https://upload.wikimedia.org/wikipedia/commons/d/d3/Supreme_pizza.jpg&quot;
+  alt=&quot;Picture of a pizza&quot;
+  width=&quot;500px&quot;
+&gt;
+</code></pre>
+
+<p>From order of least to most importance, I want you to notice these three things:</p>
+
+<ol>
+<li><p>The spacing: I broke the attributes into separate lines to improve readability.
+The browser interprets the code the same but it is easier for us to see
+what&rsquo;s happening inside of the element.</p></li>
+
+<li><p>The width attribute: Just a new attribute related to images. As its name
+explains, it allows us to control the width of the image. There&rsquo;s also a
+height attribute, but it is recommended to only use one of them (width or height)
+at a time to maintain the ratio of the image.</p></li>
+
+<li><p>The link to the image:
+I&rsquo;m using an external link for the <a href="https://upload.wikimedia.org/wikipedia/commons/d/d3/Supreme_pizza.jpg">location of the image</a>. This is OK when we&rsquo;re
+starting, but the linked image in that URL could be changed or deleted in
+the future. To avoid this, let&rsquo;s learn about local images.</p></li>
+</ol>
+
+<h3 id="local-images">Local Images</h3>
+
+<p>Instead of depending on an external source to add an image to our website, let&rsquo;s
+download that image and put it inside our project.</p>
+
+<p>To do this, go to the the <a href="https://upload.wikimedia.org/wikipedia/commons/d/d3/Supreme_pizza.jpg">pizza photo</a>,
+right click it, and select &ldquo;Save image as&hellip;&rdquo;. When choosing the folder to save
+the image, select the folder in which we have our HTML project (Remember; &ldquo;Home/The_WebDev_Blog/HTML/&ldquo;). And save it as &ldquo;pizza.png&rdquo;.</p>
+
+<p>Change your src attribute of the image element to look like this:</p>
+
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;title&gt;Awesome Title&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Hello World!&lt;/h1&gt;
+    &lt;p&gt;
+      My name is &lt;strong&gt;Luis Rodriguez&lt;/strong&gt;, I'm 20 years old and
+      &lt;em&gt;my favorite food is pizza&lt;/em&gt;.
+    &lt;/p&gt;
+    &lt;img
+      src=&quot;pizza.png&quot;
+      alt=&quot;Picture of a pizza&quot;
+      width=&quot;500px&quot;
+    &gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<p>The result in the browser shouldn&rsquo;t change, but now we&rsquo;ve &ldquo;future-proofed&rdquo; our image.</p>
+
+<h3 id="exercises">Exercises</h3>
+
+<ol>
+<li>Create a &ldquo;images&rdquo; directory inside of the HTML folder.</li>
+<li>Put &ldquo;pizza.png&rdquo; inside of that &ldquo;images&rdquo; directory.</li>
+<li>Change the src of the image to &ldquo;images/pizza.png&rdquo;</li>
+<li>Save your code and refresh the browser. Nothing should change. But
+now our project is better structured :).</li>
+<li>Add a new image to your project related to your random fact, put it inside
+of the &ldquo;images&rdquo; folder and replace the image of the pizza by your own image.
+Remember to update the &ldquo;alt&rdquo; attribute.</li>
+</ol>
+
+<!-- a element stands for anchor
+
+using a elements with images and external images
+
+Opening links in new tabs -->
 
 
 <footer class=" footline" >
 	
 </footer>
 
-        
-            </div> 
+
         
         </div> 
       </div>
@@ -800,6 +986,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -807,6 +994,41 @@
                     
                     
 
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
                     
                         
             
@@ -877,6 +1099,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -887,6 +1110,41 @@
                     
             
         
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
                     
                         
             
@@ -920,74 +1178,6 @@
             
         
                     
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
             
         
                     
@@ -998,10 +1188,10 @@
 
 
         
-            <a class="nav nav-prev" href="/html/resources/" title="Resources"> <i class="fa fa-chevron-left"></i></a>
+            <a class="nav nav-prev" href="/html/inline_blocks/" title="Inline vs Blocks"> <i class="fa fa-chevron-left"></i></a>
         
         
-            <a class="nav nav-next" href="/extras/questions/" title="FAQs" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+            <a class="nav nav-next" href="/html/resources/" title="Resources" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
         
     </div>
 
@@ -1031,3 +1221,4 @@
 
   </body>
 </html>
+

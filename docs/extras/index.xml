@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Extras on The WebDev Blog</title>
+    <link>http://thewebdevblog.tech/extras/</link>
+    <description>Recent content in Extras on The WebDev Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Sep 2017 20:00:48 -0400</lastBuildDate>
+    
+	<atom:link href="http://thewebdevblog.tech/extras/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>FAQs</title>
+      <link>http://thewebdevblog.tech/extras/questions/</link>
+      <pubDate>Sun, 26 Mar 2017 19:44:28 -0400</pubDate>
+      
+      <guid>http://thewebdevblog.tech/extras/questions/</guid>
+      <description>This page is going to act as a sort of Frequently Asked Questions. I expect the numbers of questions to grow as I get more feedback from you, the reader.
+1. How does the Blog work? Easy, read every page and follow along with the tutorials, answer the quizzes and do the projects.
+My email direction is in the next page, so feel free to contact me if:</description>
+    </item>
+    
+    <item>
+      <title>Collaborating</title>
+      <link>http://thewebdevblog.tech/extras/collaborating/</link>
+      <pubDate>Tue, 18 Apr 2017 20:26:25 -0400</pubDate>
+      
+      <guid>http://thewebdevblog.tech/extras/collaborating/</guid>
+      <description>You can help the blog in many diferent ways, but for now I&amp;rsquo;ll just list three of them:
+ Sharing: Spread the word and share this blog with your friends, family or with someone that you think could benefit from this resource.
+ Feedback: Send me a mail at CodeKommissar@Gmail.com and tell me what you think of the site (what things you like like/dislike, what could be improved, what topics you&amp;rsquo;d like to see here, etc)</description>
+    </item>
+    
+  </channel>
+</rss>

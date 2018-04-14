@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <meta name="generator" content="Hugo 0.31.1" />
+    <meta name="generator" content="Hugo 0.38.2" />
     <meta name="description" content="The WebDev Blog is a learning site for beginners that want to become Full-Stack Web Developers">
 <meta name="author" content="Luis Rodriguez">
 
@@ -18,19 +18,19 @@
 
 
     
-    <link href="/css/nucleus.css?1514860887" rel="stylesheet">
-    <link href="/css/font-awesome.min.css?1514860887" rel="stylesheet">
-    <link href="/css/hybrid.css?1514860887" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1514860887" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1514860887" rel="stylesheet">
-    <link href="/css/horsey.css?1514860887" rel="stylesheet">
-    <link href="/css/theme.css?1514860887" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1514860887" rel="stylesheet">
+    <link href="/css/nucleus.css?1523740109" rel="stylesheet">
+    <link href="/css/font-awesome.min.css?1523740109" rel="stylesheet">
+    <link href="/css/hybrid.css?1523740109" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1523740109" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1523740109" rel="stylesheet">
+    <link href="/css/horsey.css?1523740109" rel="stylesheet">
+    <link href="/css/theme.css?1523740109" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1523740109" rel="stylesheet">
     
-      <link href="/css/theme-mine.css?1514860887" rel="stylesheet">
+      <link href="/css/theme-mine.css?1523740109" rel="stylesheet">
     
 
-    <script src="/js/jquery-2.x.min.js?1514860887"></script>
+    <script src="/js/jquery-2.x.min.js?1523740109"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -422,6 +422,25 @@
  
   
     
+      <li data-nav-id="/html/images/" title="Images" class="dd-item ">
+        <a href="/html/images/">
+        Images
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
       <li data-nav-id="/html/resources/" title="Resources" class="dd-item ">
         <a href="/html/resources/">
         Resources
@@ -617,12 +636,12 @@
 &lt;/html&gt;
 </code></pre>
 
-<p>We already added text, but that text is not <strong>semantic</strong> enough.
-As far as the browser knows, it is just random words floating in our body (and
-that should be displayed because they&rsquo;re <em>in</em> the body).</p>
+<p>We&rsquo;ve already added text, but that text is not <strong>semantic</strong> enough.
+As far as the browser knows, this text are just random words floating in
+the body of our page.</p>
 
 <p>When I say it &ldquo;is not semantic enough&rdquo; what I&rsquo;m trying to say is that
-it doesn&rsquo;t have a real meaning. Let&rsquo;s quickly solve this issue, wrap the text in your
+it doesn&rsquo;t have a real meaning. Let&rsquo;s quickly solve this issue. Wrap the text in your
 body with the <code>&lt;h1&gt;</code> element, like this:</p>
 
 <pre><code>&lt;!DOCTYPE html&gt;
@@ -637,19 +656,24 @@ body with the <code>&lt;h1&gt;</code> element, like this:</p>
 &lt;/html&gt;
 </code></pre>
 
-<p>Save your file (Ctrl + S) and refresh your browser, you should now be seeing
-&ldquo;Hello World!&rdquo; bolded and with a bigger font size. That is a <strong>heading</strong>.</p>
+<p>Done, we&rsquo;ve solved the problem! Now our text is semantic enough for our HTML document.
+<code>&lt;h1&gt;</code> is the element for a &ldquo;<em>level 1 heading</em>&rdquo; and that is what &ldquo;Hello World!&rdquo; just became: The
+main heading of our page.</p>
 
-<p>Did you notice that the words &ldquo;Hello World!&rdquo; are displayed, but the <code>&lt;h1&gt;</code>
+<p>Save your file (Ctrl + S) and refresh your browser, you should now be seeing
+your text <strong>bold</strong> and with a <span id="bigger">bigger font size</span>.</p>
+
+<p>Did you notice that the content inside of the element (&ldquo;Hello World!&rdquo; in my case)
+is displayed, but the <code>&lt;h1&gt;</code>
 and <code>&lt;/h1&gt;</code> tags that surround them doesn&rsquo;t show up anywhere in the browser? That&rsquo;s
-exactly what HTML does; It takes elements in the form of code (the
-<code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code> that you wrote) and it returns
-their graphical representation to show in the browser.</p>
+exactly what the browser does with HTML; It takes elements in the form of code
+(<code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code>) and returns
+their graphical representations in the browser.</p>
 
 <h3 id="headings">Headings</h3>
 
-<p>Headings come in six &ldquo;types&rdquo; and their job is to act as a &ldquo;title&rdquo; in your
-body; They should shortly describe what is below them.</p>
+<p>Headings come in six &ldquo;levels&rdquo; and their job is to kind of act as &ldquo;titles&rdquo;
+inside the body of your page.</p>
 
 <p>Here are the six available headings in action:</p>
 
@@ -683,8 +707,10 @@ part of the screen. The other tags can be used as many times as you desire,
 but&hellip;</p>
 
 <p>The second rule is that headings should be used in order, you shouldn&rsquo;t use
-a <code>&lt;h6&gt;</code> tag just because. If you follow the rules accordingly, you would use
-<code>&lt;h6&gt;</code> as a sub-heading of <code>&lt;h5&gt;</code>, <code>&lt;h5&gt;</code> as sub-heading of <code>&lt;h4&gt;</code> and so on.</p>
+a <code>&lt;h6&gt;</code> element just because it looks cool.
+If you follow the rules accordingly, you would use
+<code>&lt;h6&gt;</code> as a sub-heading of <code>&lt;h5&gt;</code>, <code>&lt;h5&gt;</code> as sub-heading of <code>&lt;h4&gt;</code>,
+<code>&lt;h4&gt;</code> as sub-heading of <code>&lt;h3&gt;</code> and so on&hellip;</p>
 
 <h3 id="paragraphs">Paragraphs</h3>
 
@@ -715,7 +741,7 @@ your age and a random fact about yourself.</li>
 &lt;/html&gt;
 </code></pre>
 
-<p>Done? If you displayed your info in your browser, keep reading. If not,
+<p>Done? If you have your info displayed on your browser, keep reading. If not,
 you already know what to do (save the file in your editor and refresh your browser).</p>
 
 <h3 id="html-tags-and-spacing">HTML Tags and Spacing</h3>
@@ -733,15 +759,41 @@ you already know what to do (save the file in your editor and refresh your brows
 </code></pre>
 
 <p>As you may notice, the <code>&lt;h1&gt;</code> element has the tags in the same line, and the
-<code>&lt;p&gt;</code> element has the tags and the content in separate lines.</p>
+<code>&lt;p&gt;</code> element has the tags and the content on separate lines.</p>
 
-<p>As far as the browser cares, these two positioning/spacing options are the same,
-it will display the content the same if the tags are in the same line or in
+<p>As far as the browser cares, these two positioning/spacing options are the same.
+It will display the content identically if the tags are in the same line or in
 separate lines.</p>
+
+<pre><code>&lt;!-- For the Browser --&gt;
+
+&lt;h1&gt;
+  Hello World!
+&lt;/h1&gt;
+
+&lt;!-- Is the same to: --&gt;
+
+&lt;h1&gt;Hello World!&lt;/h1&gt;
+</code></pre>
 
 <p>Because it is an stylistic choice, go with the option that you find easier to
 read. Mix and match to find your own balance and strive for good readability
 in your HTML documents.</p>
+
+<div class="notices note" ><p>The little blobs of gray text in the snippet of code above are called &ldquo;comments&rdquo;.
+Every computer language has comments and the cool thing about them is that they
+don&rsquo;t affect the result of our code. If you add comments in your HTML,
+the text inside of them <strong>won&rsquo;t</strong> be displayed in the browser.
+<br>
+<br>
+The format of comments in HTML is: <code>&lt;!-- Your comment here --&gt;</code>
+<br>
+<br>
+By adding comments, we can be more expressive
+about what we are trying to do (or explain, in this case) to ourselves
+in the future or to other people reading our code.</p>
+</div>
+
 
 
 <footer class=" footline" >
@@ -1069,6 +1121,22 @@ in your HTML documents.</p>
             
         
                     
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
             
         
                     
@@ -1139,20 +1207,20 @@ in your HTML documents.</p>
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1514860887"></script>
-    <script src="/js/perfect-scrollbar.min.js?1514860887"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1514860887"></script>
-    <script src="/js/jquery.sticky-kit.min.js?1514860887"></script>
-    <script src="/js/featherlight.min.js?1514860887"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1514860887"></script>
-    <script src="/js/highlight.pack.js?1514860887"></script>
+    <script src="/js/clipboard.min.js?1523740109"></script>
+    <script src="/js/perfect-scrollbar.min.js?1523740109"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1523740109"></script>
+    <script src="/js/jquery.sticky-kit.min.js?1523740109"></script>
+    <script src="/js/featherlight.min.js?1523740109"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1523740109"></script>
+    <script src="/js/highlight.pack.js?1523740109"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom.71422.js?1514860887"></script>
-    <script src="/js/learn.js?1514860887"></script>
-    <script src="/js/hugo-learn.js?1514860887"></script>
+    <script src="/js/modernizr.custom.71422.js?1523740109"></script>
+    <script src="/js/learn.js?1523740109"></script>
+    <script src="/js/hugo-learn.js?1523740109"></script>
 
-    <link href="/mermaid/mermaid.css?1514860887" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1514860887"></script>
+    <link href="/mermaid/mermaid.css?1523740109" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1523740109"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

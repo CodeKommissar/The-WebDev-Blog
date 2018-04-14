@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HTML on The WebDev Blog</title>
+    <link>http://thewebdevblog.tech/html/</link>
+    <description>Recent content in HTML on The WebDev Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 Sep 2017 21:58:54 -0400</lastBuildDate>
+    
+	<atom:link href="http://thewebdevblog.tech/html/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introduction</title>
+      <link>http://thewebdevblog.tech/html/intro/</link>
+      <pubDate>Sun, 10 Sep 2017 22:17:38 -0400</pubDate>
+      
+      <guid>http://thewebdevblog.tech/html/intro/</guid>
+      <description>HTML stands for: Hyper Text Markup Language and its job is to describe the structure and content of web pages. HTML is composed of elements that describe what do we want to display in the browser.
+A Little Bit of History HTML was created by Tim Berners-Lee between 1989 and 1990 with the purposes of:
+ Having a simple standard format to publish scientific and technical documents.
+ Allowing these documents to be easily shareable with the help of the Internet.</description>
+    </item>
+    
+    <item>
+      <title>Installations</title>
+      <link>http://thewebdevblog.tech/html/installations/</link>
+      <pubDate>Sun, 10 Sep 2017 22:17:57 -0400</pubDate>
+      
+      <guid>http://thewebdevblog.tech/html/installations/</guid>
+      <description>All right, to start learning HTML, first we need to install a couple of programs into our computer; a Web Browser and a Text Editor.
+Web Browser If you are reading this, I&amp;rsquo;m 99% sure that you are using a web browser right now. For this tutorial, a modern version of Mozilla Firefox or Google Chrome should be more than fine to develop our web pages.
+If you already have one of those browsers installed on your computer, keep reading.</description>
+    </item>
+    
+    <item>
+      <title>First Steps</title>
+      <link>http://thewebdevblog.tech/html/first_steps/</link>
+      <pubDate>Sun, 10 Sep 2017 22:17:57 -0400</pubDate>
+      
+      <guid>http://thewebdevblog.tech/html/first_steps/</guid>
+      <description>You still remember how to use The Command Line, right?
+If you&amp;rsquo;re new to this blog and don&amp;rsquo;t know how to use the terminal, or if you already forgot the basic commands, give that section a quick review and come back.
+Why? Because you&amp;rsquo;ll be doing your first assignment right now:
+ Open your terminal, you should be in your home directory. Using the cd command, go inside your &amp;ldquo;The_WebDev_Blog&amp;rdquo; directory.</description>
+    </item>
+    
+    <item>
+      <title>Basic Structure</title>
+      <link>http://thewebdevblog.tech/html/basic_structure/</link>
+      <pubDate>Sun, 10 Sep 2017 22:17:57 -0400</pubDate>
+      
+      <guid>http://thewebdevblog.tech/html/basic_structure/</guid>
+      <description>Now that we have everything we need to write HTML, we&amp;rsquo;ll begin by covering the basic structure of every (good) HTML document.
+DOCTYPE! The first thing we&amp;rsquo;re going to add to our HTML document is the DOCTYPE or &amp;ldquo;Document Type Declaration&amp;rdquo;. In the first line of your &amp;ldquo;index.html&amp;rdquo; file, type this:
+&amp;lt;!DOCTYPE html&amp;gt;  This &amp;ldquo;Document Type Declaration&amp;rdquo; tells the browser which version of HTML the page is written in.</description>
+    </item>
+    
+    <item>
+      <title>Adding Text</title>
+      <link>http://thewebdevblog.tech/html/text/</link>
+      <pubDate>Sun, 10 Sep 2017 22:17:57 -0400</pubDate>
+      
+      <guid>http://thewebdevblog.tech/html/text/</guid>
+      <description>Your HTML document should be looking similar to this:
+&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt; &amp;lt;title&amp;gt;Awesome Title&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; Hello World! &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;  We&amp;rsquo;ve already added text, but that text is not semantic enough. As far as the browser knows, this text are just random words floating in the body of our page.
+When I say it &amp;ldquo;is not semantic enough&amp;rdquo; what I&amp;rsquo;m trying to say is that it doesn&amp;rsquo;t have a real meaning.</description>
+    </item>
+    
+    <item>
+      <title>Inline vs Blocks</title>
+      <link>http://thewebdevblog.tech/html/inline_blocks/</link>
+      <pubDate>Sun, 10 Sep 2017 22:17:57 -0400</pubDate>
+      
+      <guid>http://thewebdevblog.tech/html/inline_blocks/</guid>
+      <description>Block-Level Elements The elements we learned about in the last page (&amp;lt;h1&amp;gt; and &amp;lt;p&amp;gt;) are block-level elements. What do I mean with this? Block-level elements are elements that use all the available width in the place at which they&amp;rsquo;re displayed in the browser, and have a top and bottom spacing (called margin) surrounding them.
+It is going to be easier if we visualize this. Luckily our browsers give us a set of tools to make development better.</description>
+    </item>
+    
+    <item>
+      <title>Images</title>
+      <link>http://thewebdevblog.tech/html/images/</link>
+      <pubDate>Sun, 10 Sep 2017 22:17:57 -0400</pubDate>
+      
+      <guid>http://thewebdevblog.tech/html/images/</guid>
+      <description>To add images to our document we use the &amp;lt;img&amp;gt; element. The basic pattern to use this element for adding images to our webpage is this:
+&amp;lt;img src=&amp;quot;image.png&amp;quot; alt=&amp;quot;A brief description of the image&amp;quot;&amp;gt;  As we can see, the &amp;lt;img&amp;gt; element is comprised of a single tag and a couple of attributes. Remember that the mission of attributes is to provide additional information to their element.
+In this case, the &amp;lt;img&amp;gt; needs a src (short for &amp;ldquo;source&amp;rdquo;) attribute that tells the element where the image is located at, and it should have an alt (short for &amp;ldquo;alternative text&amp;rdquo;) attribute which has a couple of functions to it:</description>
+    </item>
+    
+    <item>
+      <title>Resources</title>
+      <link>http://thewebdevblog.tech/html/resources/</link>
+      <pubDate>Sun, 10 Sep 2017 22:18:29 -0400</pubDate>
+      
+      <guid>http://thewebdevblog.tech/html/resources/</guid>
+      <description>List of resources I used to make this section:
+ MDN&amp;rsquo;s HTML Guide HTML Dog&amp;rsquo;s HTML Tutorial Jon Duckett&amp;rsquo;s HTML and CSS: Design and Build Websites Book Shay Howe&amp;rsquo;s Learn to Code HTML &amp;amp; CSS Book Colt Steele&amp;rsquo;s The Web Developer Bootcamp Course Jonas Schmedtmann&amp;rsquo;s Build Responsive Real World Websites with HTML5 and CSS3 Course  </description>
+    </item>
+    
+  </channel>
+</rss>

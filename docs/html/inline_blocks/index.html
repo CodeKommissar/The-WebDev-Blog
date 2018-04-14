@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <meta name="generator" content="Hugo 0.31.1" />
+    <meta name="generator" content="Hugo 0.38.2" />
     <meta name="description" content="The WebDev Blog is a learning site for beginners that want to become Full-Stack Web Developers">
 <meta name="author" content="Luis Rodriguez">
 
@@ -18,19 +18,19 @@
 
 
     
-    <link href="/css/nucleus.css?1514860887" rel="stylesheet">
-    <link href="/css/font-awesome.min.css?1514860887" rel="stylesheet">
-    <link href="/css/hybrid.css?1514860887" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1514860887" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1514860887" rel="stylesheet">
-    <link href="/css/horsey.css?1514860887" rel="stylesheet">
-    <link href="/css/theme.css?1514860887" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1514860887" rel="stylesheet">
+    <link href="/css/nucleus.css?1523740109" rel="stylesheet">
+    <link href="/css/font-awesome.min.css?1523740109" rel="stylesheet">
+    <link href="/css/hybrid.css?1523740109" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1523740109" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1523740109" rel="stylesheet">
+    <link href="/css/horsey.css?1523740109" rel="stylesheet">
+    <link href="/css/theme.css?1523740109" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1523740109" rel="stylesheet">
     
-      <link href="/css/theme-mine.css?1514860887" rel="stylesheet">
+      <link href="/css/theme-mine.css?1523740109" rel="stylesheet">
     
 
-    <script src="/js/jquery-2.x.min.js?1514860887"></script>
+    <script src="/js/jquery-2.x.min.js?1523740109"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -422,6 +422,25 @@
  
   
     
+      <li data-nav-id="/html/images/" title="Images" class="dd-item ">
+        <a href="/html/images/">
+        Images
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
       <li data-nav-id="/html/resources/" title="Resources" class="dd-item ">
         <a href="/html/resources/">
         Resources
@@ -605,28 +624,92 @@
 <h3 id="block-level-elements">Block-Level Elements</h3>
 
 <p>The elements we learned about in the last page (<code>&lt;h1&gt;</code> and <code>&lt;p&gt;</code>) are
-<strong>block-level</strong> elements, what do I mean with this? Block-level elements
+<strong>block-level</strong> elements. What do I mean with this? Block-level elements
 are elements that use all the available width in the place at which they&rsquo;re
-displayed in the browser, and have a top and bottom spacing (called margin).</p>
+displayed in the browser, and have a top and bottom spacing (called margin)
+surrounding them.</p>
 
 <p>It is going to be easier if we visualize this. Luckily our browsers give us
-a set of tools to make our lives as developers easier.</p>
-
-<p>Whether you&rsquo;re on Google Chrome or Mozilla Firefox, press Ctrl + Shift + C.
+a set of tools to make development better. Whether you&rsquo;re using
+Google Chrome or Mozilla Firefox, <span class="underline">press Ctrl + Shift + C.</span>
 This set of keys should open your developer tools.</p>
 
-<p>Using your mouse, hover over your HTML page. It should look something like this:</p>
+<p>Using your mouse, hover over the text in your HTML page.
+It should look something like this:</p>
 
 <p><img src="block_element.png" alt="Screenshot of block elements in HTML" /></p>
 
 <p>Here, I&rsquo;m hovering over the <code>&lt;h1&gt;</code> element. In the blue background we can see
 represented the width of the element and in the
-orange/salmon shade we see the top and bottom spacing (margin) of the element.</p>
-
-<p>Notice at the bottom of the screen how the browser gives us an
-interactive representation of the code that we can play around with.</p>
+orange background we see represented the top and bottom spacing (called margin)
+of the element.</p>
 
 <h3 id="inline-level-elements">Inline-Level Elements</h3>
+
+<p>Now we&rsquo;re going to learn about <strong>inline-level</strong> elements. The first two
+we&rsquo;re going to cover are <code>&lt;strong&gt;&lt;/strong&gt;</code> and <code>&lt;em&gt;&lt;/em&gt;</code>.</p>
+
+<p>In your HTML file, enclose your name with the <code>&lt;strong&gt;&lt;/strong&gt;</code> tags and
+the random fact about yourself with the <code>&lt;em&gt;&lt;/em&gt;</code> tags. Like this:</p>
+
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;title&gt;Awesome Title&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Hello World!&lt;/h1&gt;
+    &lt;p&gt;
+      My name is &lt;strong&gt;Luis Rodriguez&lt;/strong&gt;, I'm 20 years old and
+      &lt;em&gt;my favorite food is pizza&lt;/em&gt;.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<div class="notices note" ><p>Notice that you can separate the text inside of your paragraph in separate
+lines and your browser will treat it as one space. This feature is called
+&ldquo;white space collapsing&rdquo; and makes your HTML code easier to follow by
+allowing you to add new lines or extras spaces to improve the readability
+of your HTML documents.</p>
+</div>
+
+
+<p>Save and refresh your page. You should now be seeing your name in <strong>bold</strong>
+and your random fact in <em>italics</em>.</p>
+
+<p>The purpose of the <code>&lt;strong&gt;&lt;/strong&gt;</code> element is not just only to make some text
+bold but it also indicates that the content inside of it has a <strong>strong</strong> importance.</p>
+
+<p>In the same vein, the purpose of the <code>&lt;em&gt;&lt;/em&gt;</code> element (besides
+displaying text in italics) is to make an <em>emphasis</em> in the pronunciation of
+the content inside of it to subtly change the meaning of a sentence.</p>
+
+<p>Now onto to the &ldquo;inline-level elements&rdquo; part. Why are these elements considered
+to be inline? See the screenshot below:</p>
+
+<p><img src="inline_element.png" alt="Screenshot of inline elements in HTML" /></p>
+
+<p>As you can see, when we hover our <code>&lt;em&gt;&lt;/em&gt;</code> element with the developer
+tools inspector, we can notice two things:</p>
+
+<ol>
+<li>First, that it <span class="underline">doesn&rsquo;t</span>
+have a spacing at the top and bottom of the element.</li>
+<li>And second, that its width it is only <span class="underline">determined
+by the content it has inside.<span></li>
+</ol>
+
+<p>Pretty much, those are the differences between block-level elements and
+inline-level elements. Block-level elements have top and bottom spacing and
+have a width of 100% on the page while inline-level elements don&rsquo;t have
+those top and bottom spacings and its width is dependent on the content inside
+of them.</p>
+
+<p>Later on, when we learn about the <code>&lt;span&gt;&lt;/span&gt;</code> and
+<code>&lt;div&gt;&lt;/div&gt;</code> elements and how to style our HTML pages with CSS, this
+knowledge is going to be a lot more useful.</p>
 
 
 <footer class=" footline" >
@@ -954,6 +1037,22 @@ interactive representation of the code that we can play around with.</p>
             
         
                     
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
             
         
                     
@@ -1015,7 +1114,7 @@ interactive representation of the code that we can play around with.</p>
             <a class="nav nav-prev" href="/html/text/" title="Adding Text"> <i class="fa fa-chevron-left"></i></a>
         
         
-            <a class="nav nav-next" href="/html/resources/" title="Resources" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+            <a class="nav nav-next" href="/html/images/" title="Images" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
         
     </div>
 
@@ -1024,20 +1123,20 @@ interactive representation of the code that we can play around with.</p>
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1514860887"></script>
-    <script src="/js/perfect-scrollbar.min.js?1514860887"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1514860887"></script>
-    <script src="/js/jquery.sticky-kit.min.js?1514860887"></script>
-    <script src="/js/featherlight.min.js?1514860887"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1514860887"></script>
-    <script src="/js/highlight.pack.js?1514860887"></script>
+    <script src="/js/clipboard.min.js?1523740109"></script>
+    <script src="/js/perfect-scrollbar.min.js?1523740109"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1523740109"></script>
+    <script src="/js/jquery.sticky-kit.min.js?1523740109"></script>
+    <script src="/js/featherlight.min.js?1523740109"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1523740109"></script>
+    <script src="/js/highlight.pack.js?1523740109"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom.71422.js?1514860887"></script>
-    <script src="/js/learn.js?1514860887"></script>
-    <script src="/js/hugo-learn.js?1514860887"></script>
+    <script src="/js/modernizr.custom.71422.js?1523740109"></script>
+    <script src="/js/learn.js?1523740109"></script>
+    <script src="/js/hugo-learn.js?1523740109"></script>
 
-    <link href="/mermaid/mermaid.css?1514860887" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1514860887"></script>
+    <link href="/mermaid/mermaid.css?1523740109" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1523740109"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

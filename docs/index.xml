@@ -17,8 +17,10 @@
       <pubDate>Sun, 10 Sep 2017 22:17:38 -0400</pubDate>
       
       <guid>http://thewebdevblog.tech/html/intro/</guid>
-      <description>HTML stands for: Hyper Text Markup Language and its job is to describe the structure and content of web pages. It is a language that computers can understand, but it isn&amp;rsquo;t a Programming Language by itself. As its name tell us, it is just a Markup Language.
-HTML is composed of elements which, on most cases, have two tags; an opening tag and a closing tag (which has an extra forward slash on it).</description>
+      <description>HTML stands for: Hyper Text Markup Language and its job is to describe the structure and content of web pages. HTML is composed of elements that describe what do we want to display in the browser.
+A Little Bit of History HTML was created by Tim Berners-Lee between 1989 and 1990 with the purposes of:
+ Having a simple standard format to publish scientific and technical documents.
+ Allowing these documents to be easily shareable with the help of the Internet.</description>
     </item>
     
     <item>
@@ -60,7 +62,7 @@ My email direction is in the next page, so feel free to contact me if:</descript
       
       <guid>http://thewebdevblog.tech/html/installations/</guid>
       <description>All right, to start learning HTML, first we need to install a couple of programs into our computer; a Web Browser and a Text Editor.
-Web Browser If you are reading this, I&amp;rsquo;m 99% sure that you are using a web browser right now. For this tutorial a modern version of Mozilla Firefox or Google Chrome should be more than fine to develop our web pages.
+Web Browser If you are reading this, I&amp;rsquo;m 99% sure that you are using a web browser right now. For this tutorial, a modern version of Mozilla Firefox or Google Chrome should be more than fine to develop our web pages.
 If you already have one of those browsers installed on your computer, keep reading.</description>
     </item>
     
@@ -103,8 +105,9 @@ The first step to start playing the game, is well, to open the game:
       
       <guid>http://thewebdevblog.tech/html/first_steps/</guid>
       <description>You still remember how to use The Command Line, right?
-If you&amp;rsquo;re new to this blog and don&amp;rsquo;t know how to use the terminal, or if you already forgot the basic commands, give that section a quick review and come back. Why? Because you will be doing your first assignment right now:
- Open your terminal, you should be in your home directory. Enter inside your &amp;ldquo;The_WebDev_Blog&amp;rdquo; directory using the cd command.</description>
+If you&amp;rsquo;re new to this blog and don&amp;rsquo;t know how to use the terminal, or if you already forgot the basic commands, give that section a quick review and come back.
+Why? Because you&amp;rsquo;ll be doing your first assignment right now:
+ Open your terminal, you should be in your home directory. Using the cd command, go inside your &amp;ldquo;The_WebDev_Blog&amp;rdquo; directory.</description>
     </item>
     
     <item>
@@ -135,7 +138,7 @@ My goal is to become a Full-Stack Developer and to work as one. If you have hear
       
       <guid>http://thewebdevblog.tech/html/basic_structure/</guid>
       <description>Now that we have everything we need to write HTML, we&amp;rsquo;ll begin by covering the basic structure of every (good) HTML document.
-DOCTYPE! The first line we&amp;rsquo;re going to add to our HTML document is the DOCTYPE or &amp;ldquo;Document Type Declaration&amp;rdquo;. In the first line of your &amp;ldquo;index.html&amp;rdquo; file, type this:
+DOCTYPE! The first thing we&amp;rsquo;re going to add to our HTML document is the DOCTYPE or &amp;ldquo;Document Type Declaration&amp;rdquo;. In the first line of your &amp;ldquo;index.html&amp;rdquo; file, type this:
 &amp;lt;!DOCTYPE html&amp;gt;  This &amp;ldquo;Document Type Declaration&amp;rdquo; tells the browser which version of HTML the page is written in.</description>
     </item>
     
@@ -156,7 +159,7 @@ Imagine this; you are in your Wizard&amp;rsquo;s Lair, fiddling around with alch
       
       <guid>http://thewebdevblog.tech/html/text/</guid>
       <description>Your HTML document should be looking similar to this:
-&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt; &amp;lt;title&amp;gt;Awesome Title&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; Hello World! &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;  We already added text, but that text is not semantic enough. As far as the browser knows, it is just random words floating in our body (and that should be displayed because they&amp;rsquo;re in the body).
+&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt; &amp;lt;title&amp;gt;Awesome Title&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; Hello World! &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;  We&amp;rsquo;ve already added text, but that text is not semantic enough. As far as the browser knows, this text are just random words floating in the body of our page.
 When I say it &amp;ldquo;is not semantic enough&amp;rdquo; what I&amp;rsquo;m trying to say is that it doesn&amp;rsquo;t have a real meaning.</description>
     </item>
     
@@ -176,8 +179,19 @@ When I say it &amp;ldquo;is not semantic enough&amp;rdquo; what I&amp;rsquo;m tr
       <pubDate>Sun, 10 Sep 2017 22:17:57 -0400</pubDate>
       
       <guid>http://thewebdevblog.tech/html/inline_blocks/</guid>
-      <description>Block-Level Elements The elements we learned about in the last page (&amp;lt;h1&amp;gt; and &amp;lt;p&amp;gt;) are block-level elements, what do I mean with this? Block-level elements are elements that use all the available width in the place at which they&amp;rsquo;re displayed in the browser, and have a top and bottom spacing (called margin).
-It is going to be easier if we visualize this. Luckily our browsers give us a set of tools to make our lives as developers easier.</description>
+      <description>Block-Level Elements The elements we learned about in the last page (&amp;lt;h1&amp;gt; and &amp;lt;p&amp;gt;) are block-level elements. What do I mean with this? Block-level elements are elements that use all the available width in the place at which they&amp;rsquo;re displayed in the browser, and have a top and bottom spacing (called margin) surrounding them.
+It is going to be easier if we visualize this. Luckily our browsers give us a set of tools to make development better.</description>
+    </item>
+    
+    <item>
+      <title>Images</title>
+      <link>http://thewebdevblog.tech/html/images/</link>
+      <pubDate>Sun, 10 Sep 2017 22:17:57 -0400</pubDate>
+      
+      <guid>http://thewebdevblog.tech/html/images/</guid>
+      <description>To add images to our document we use the &amp;lt;img&amp;gt; element. The basic pattern to use this element for adding images to our webpage is this:
+&amp;lt;img src=&amp;quot;image.png&amp;quot; alt=&amp;quot;A brief description of the image&amp;quot;&amp;gt;  As we can see, the &amp;lt;img&amp;gt; element is comprised of a single tag and a couple of attributes. Remember that the mission of attributes is to provide additional information to their element.
+In this case, the &amp;lt;img&amp;gt; needs a src (short for &amp;ldquo;source&amp;rdquo;) attribute that tells the element where the image is located at, and it should have an alt (short for &amp;ldquo;alternative text&amp;rdquo;) attribute which has a couple of functions to it:</description>
     </item>
     
     <item>

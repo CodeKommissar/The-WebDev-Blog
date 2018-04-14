@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Intro on The WebDev Blog</title>
+    <link>http://thewebdevblog.tech/intro/</link>
+    <description>Recent content in Intro on The WebDev Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Sep 2017 20:00:48 -0400</lastBuildDate>
+    
+	<atom:link href="http://thewebdevblog.tech/intro/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Requirements</title>
+      <link>http://thewebdevblog.tech/intro/requirements/</link>
+      <pubDate>Mon, 04 Sep 2017 20:02:29 -0400</pubDate>
+      
+      <guid>http://thewebdevblog.tech/intro/requirements/</guid>
+      <description>All of the contents on this blog are 100% free, but to begin, you&amp;rsquo;re going to need a couple of things if you want to follow along and become a good programmer in general:
+1) Desktop Computer or Laptop with Linux/MacOS &amp;ldquo;Desktop Computer or Laptop&amp;rdquo; is pretty basic. A regular computer or old laptop should be more than fine to learn web development.
+Sadly you can&amp;rsquo;t, or at least you shouldn&amp;rsquo;t program in a phone or tablet.</description>
+    </item>
+    
+    <item>
+      <title>Beginner&#39;s Advice</title>
+      <link>http://thewebdevblog.tech/intro/beginner_advice/</link>
+      <pubDate>Tue, 18 Apr 2017 19:57:42 -0400</pubDate>
+      
+      <guid>http://thewebdevblog.tech/intro/beginner_advice/</guid>
+      <description>Here are some pointers that I would like to have received when I started this journey.
+1) Download an app to track how many hours a day you are coding (And use it) I have a Windows Phone, so I downloaded an app called Pomodoro T-Soft, which I use everyday. If you have an iOS device Pomodoro Keeper is the app from the screenshots above, and for Android users I think that a good option is ClearFocus.</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>http://thewebdevblog.tech/intro/about/</link>
+      <pubDate>Tue, 18 Apr 2017 20:25:43 -0400</pubDate>
+      
+      <guid>http://thewebdevblog.tech/intro/about/</guid>
+      <description>Before we begin this journey, let me introduce myself.
+My name is Luis and I&amp;rsquo;m from Venezuela. Currently I&amp;rsquo;m 20 years old and I&amp;rsquo;m studying Electronics Engineering here in Venezuela.
+My goal is to become a Full-Stack Developer and to work as one. If you have heard how things currently are in Venezuela, you may know that the situation here isn&amp;rsquo;t so great, so if I have the opportunity to go to a more stable country and make a living working as a developer while helping to support my family, I&amp;rsquo;d be more than happy to do so.</description>
+    </item>
+    
+  </channel>
+</rss>

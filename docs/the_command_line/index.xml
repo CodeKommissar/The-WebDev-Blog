@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>The Command Line on The WebDev Blog</title>
-    <link>http://thewebdevblog.tech/the_command_line/</link>
+    <link>https://codekommissar.github.io/The-WebDev-Blog/the_command_line/</link>
     <description>Recent content in The Command Line on The WebDev Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 04 Sep 2017 20:00:48 -0400</lastBuildDate>
     
-	<atom:link href="http://thewebdevblog.tech/the_command_line/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://codekommissar.github.io/The-WebDev-Blog/the_command_line/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Introduction</title>
-      <link>http://thewebdevblog.tech/the_command_line/introduction/</link>
+      <link>https://codekommissar.github.io/The-WebDev-Blog/the_command_line/introduction/</link>
       <pubDate>Fri, 21 Apr 2017 14:01:52 -0400</pubDate>
       
-      <guid>http://thewebdevblog.tech/the_command_line/introduction/</guid>
+      <guid>https://codekommissar.github.io/The-WebDev-Blog/the_command_line/introduction/</guid>
       <description>The first thing we are going to learn are the fundamentals of the command line. Specifically, we will cover the basics of the Unix command line, where Unix refers to the family of operating systems that includes Linux and Mac OS, but you&amp;rsquo;ll still be able to follow along if you use Windows.
 To start, you don&amp;rsquo;t need any previous knowledge. I&amp;rsquo;ll assume that you don&amp;rsquo;t even know what the command line is or why do we use it.</description>
     </item>
     
     <item>
       <title>First Steps</title>
-      <link>http://thewebdevblog.tech/the_command_line/first_steps/</link>
+      <link>https://codekommissar.github.io/The-WebDev-Blog/the_command_line/first_steps/</link>
       <pubDate>Fri, 21 Apr 2017 19:20:32 -0400</pubDate>
       
-      <guid>http://thewebdevblog.tech/the_command_line/first_steps/</guid>
+      <guid>https://codekommissar.github.io/The-WebDev-Blog/the_command_line/first_steps/</guid>
       <description>To make your experience learning the command line a little bit more fun, use your imagination and picture that you are playing a text adventure like this:
 The first step to start playing the game, is well, to open the game:
 1) Entering the Command Line On Ubuntu  Open the Dash by clicking the Ubuntu icon in the upper-left. Type &amp;ldquo;terminal&amp;rdquo; in the search box. Select the Terminal application from the results that appear and click it.</description>
@@ -34,30 +34,30 @@ The first step to start playing the game, is well, to open the game:
     
     <item>
       <title>Shortcuts</title>
-      <link>http://thewebdevblog.tech/the_command_line/shortcuts/</link>
+      <link>https://codekommissar.github.io/The-WebDev-Blog/the_command_line/shortcuts/</link>
       <pubDate>Wed, 17 May 2017 14:46:34 -0400</pubDate>
       
-      <guid>http://thewebdevblog.tech/the_command_line/shortcuts/</guid>
+      <guid>https://codekommissar.github.io/The-WebDev-Blog/the_command_line/shortcuts/</guid>
       <description>Now that you know some basic commands, we are going to learn some shortcuts.
 I hope that learning these shortcuts serve us two purposes; first, after you learn them, shortcuts are going to save you some precious time while using the command line, and second, if you still don&amp;rsquo;t feel 100% comfortable while using the terminal, learning these shortcuts can help you overcome some of that command line resistance.</description>
     </item>
     
     <item>
       <title>Playing with scrolls</title>
-      <link>http://thewebdevblog.tech/the_command_line/playing_with_scrolls/</link>
+      <link>https://codekommissar.github.io/The-WebDev-Blog/the_command_line/playing_with_scrolls/</link>
       <pubDate>Sat, 22 Apr 2017 12:02:13 -0400</pubDate>
       
-      <guid>http://thewebdevblog.tech/the_command_line/playing_with_scrolls/</guid>
+      <guid>https://codekommissar.github.io/The-WebDev-Blog/the_command_line/playing_with_scrolls/</guid>
       <description>Now that you know how to run basic commands at the terminal, along with a few shortcuts, we are going to start working with files. Because we are wizards, we are going to be playing with &amp;ldquo;scrolls&amp;rdquo; instead of just simple text files. Inside these scrolls, we are going to write the recipes of our potions.
 Imagine this; you are in your Wizard&amp;rsquo;s Lair, fiddling around with alchemy ingredients (in this case, all you had left was Luna Moth Wings with Chaurus Eggs), and out of pure luck you made an Invisibility potion.</description>
     </item>
     
     <item>
       <title>Resources</title>
-      <link>http://thewebdevblog.tech/the_command_line/resources/</link>
+      <link>https://codekommissar.github.io/The-WebDev-Blog/the_command_line/resources/</link>
       <pubDate>Fri, 21 Apr 2017 11:53:52 -0400</pubDate>
       
-      <guid>http://thewebdevblog.tech/the_command_line/resources/</guid>
+      <guid>https://codekommissar.github.io/The-WebDev-Blog/the_command_line/resources/</guid>
       <description>List of resources I used to make this section:
  Codecademy&amp;rsquo;s Learn the Command Line Viking Code School&amp;rsquo;s A Command Line Crash Course Getting to Know the Command Line by David Baumgold Survival guide for Unix newbies by Matt Might Command Line Crash Course by Zed Shaw Learn Enough Command Line to Be Dangerous by Michael Hartl Rithm School Terminal and UNIX The Linux Command Line by William Shotts  </description>
     </item>

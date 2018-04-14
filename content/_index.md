@@ -2,7 +2,7 @@
 
 <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/l0HlHFRbmaZtBRhXG" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
 
-Welcome to The WebDev Blog, I'm very glad you are here!
+Welcome to The WebDev Blog!
 
 This website was made with the objective of teaching you (and in the process learn myself), what I believe are the fundamentals technologies to become a **Full-Stack Web Developer**.
 
